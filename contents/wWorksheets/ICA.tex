@@ -1,3 +1,40 @@
 
-\section{Independent Componant Analysis}
-ICA has proven to be a very successful tool in separating noise from wanted signal in BOLD-signals, making it a very desireable tool in fMRI.\cite{Salimi-Khorshidi2014} 
+\section{Independent Component Analysis}
+ICA has proven to be a very successful tool in separating noise from wanted signal in BOLD-signals, making it a very desirable tool in fMRI \cite{Salimi-Khorshidi2014}. The basic idea about Independent Component Analysis (ICA) is to recover $m$ signal sources, which are mixed in $n$ observed signals. The observed signal is given by:
+\begin{equation}
+\mathbf{x} = \mathbf{A}\mathbf{s}
+\end{equation}
+where \textbf{x} is a observed signal vector containing the mixed signal elements $x_1, x_2, ..., x_n$, \textbf{s} is the source signal vector with the elements $s_1, s_2, ..., s_m$ and $\mathbf{A}$ is a mixing matrix with the dimension $n \times m$. Note that the dimensions of the mixing matrix can be equal to each other, meaning that it is required to have at least the number of observed signals as the source signals. The observed signal is assumed to be a linear mix of independent source signals. When performing ICA the goal is to find an inverted mixing matrix \textbf{$A^{-1}$} that recovers the source signal:
+\begin{equation}
+\mathbf{s} = \mathbf{A^{-1}}\mathbf{x}
+\end{equation}
+This can easily be achieved if the mixing matrix is known. However, this is rarely the case, as both the mixing matrix and source signals are unknown. There is no reliable way, to fully determine \textbf{s}, thus a set of assumptions are required, which the ICA method is based on:
+\begin{itemize}
+	\item The independent components (IC)’s are assumed to be statistically independent.
+	\item The IC’s must be non-Gaussian distributions.
+\end{itemize}
+Regarding the assumption of independence, a set of variables $y_1, y_2, ..., y_n$ is not allowed to share mutual information so that $i \neq j$. This can be expressed as the joint probability of the variables is equal the product of each marginal probability of the variables:
+\begin{equation}
+p(y_1, y_2, …, y_n) = p(y_1) \cdot p(y_2) \cdot p(y_n) 
+\end{equation} \label{eq:independence}
+Satisfying this condition assures independency of the variables. Note that uncorrelatedness does not equal independency.
+Concerning the second assumption on non-Gaussianity, the joint distribution of uncorrelated Gaussian distributions are not necessarily independent, and the distribution will be symmetrical and no information on the direction of the distribution can be derived. Thus, no transformation that allows independency can be performed, and the mixing matrix \textbf{A} can not be estimated from the mixtures. This can be shown in a two dimensional example with two sources $s_1$ and $s_2$ and the mixing matrix \textbf{A}, the joint probability density function (pdf) of Gaussian distributions is calculated as:
+\begin{equation}
+p(s_1,s_2) = \frac{1}{2\pi}exp(-\frac{s^{2}_{1}+s^{2}_{2}}{2}) 
+\end{equation}
+\begin{equation}
+= \frac{1}{2\pi}exp(-\frac{\parallel \mathbf{s} \parallel ^2}{2}) 
+\end{equation}
+For an orthogonal mixing matrix \textbf{A} the inverse can be written as \textbf{$A^{-1}$} = \textbf{${A^T}$}, and then \textbf{${s} = \mathbf{A^T} \mathbf{x}$}. The joint pdf can then be rewritten as:
+\begin{equation}
+p(x_1,x_2) = \frac{1}{2\pi}exp(-\frac{\parallel \mathbf{A^T} \mathbf{x} \parallel ^2}{2}) \mid Det (\mathbf{A^T}) \mid
+\end{equation}
+Because $\frac{1}{2\pi}exp(-\frac{\parallel \mathbf{s} \parallel ^2}{2}) = \parallel \mathbf{x} \parallel ^2$ and $\mid Det ( \mathbf{A^T} ) \mid = 1$, hence the orthogonality of \textbf{A}, the joint pdf is:
+\begin{equation}
+p(x_1,x_2) = \frac{1}{2\pi}exp(-\frac{\parallel \mathbf{s} \parallel ^2}{2}) 
+\end{equation}
+The joint pdf is not changed when choosing an orthogonal mixing matrix as well as the property of independence. No further information about the mixing matrix can thus be revealed when the source signals are from a Gaussian distribution.
+
+\subsection{ICA approaches}
+As the mixing matrix and source signal most often are unknown, the IC’s must be approximated in an iterative process. There are two main ICA iteration approaches: minimizing mutual information and maximizing non-Gaussianity. The former approach seeks to minimize mutual information by maximizing independence between components. In practice this is done by minimizing the difference between the joint density distribution and the product of the marginal density functions, the left-hand side and right-hand side of \eqref{eq:independence}. This can for instance be done through a Kullback-Leibler divergence between the $p(y_1,y_2)$ and $p(y_1)*p(y_2)$ in a two dimensional case.
+The second approach seeks to maximize non-Gaussianity of the components. The central limit theorem states that if sources are mixed, the mix tend to get more Gaussian than the individual sources. The strategy here is to find the directions in the data that is as far away from Gaussian as possible through a linear transformation. That direction will most likely be independent components. To find these directions different ICA approaches use fourth order moments and negentropy of the data. 
