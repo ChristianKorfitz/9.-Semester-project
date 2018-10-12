@@ -2,10 +2,12 @@
 
 \section{Principal Component Analysis}
 
-Principal Component Analysis (PCA) is a well renowned and widely used analysis tool, capable of finding the most defining variables in a dataset. This facilitates finding the components that are the most saying for the dataset and makes it possible introduce dimensionality reduction, lowering the amount of redundant information. The PCA is used to transform a set possibly correlated variables into a set of uncorrelated components, called principle components. Each principal component (PC) is
+The use of principal component analysis (PCA) in denoising algorithms has been exploited in various studies, showing that the properties of the PCA might be useful \cite{Behzadi2013}. In this section the theory and common use of PCA is presented, including a small part on its use in images. 
+
+Principal Component Analysis (PCA) is a well renowned and widely used analysis tool, capable of finding the most defining variables in a dataset. This facilitates finding the components that are the most saying for the dataset. This introduces the possibility of dimensionality reduction by lowering the amount of redundant information. The PCA is used to transform a set possibly correlated variables into a set of uncorrelated components, called principle components. Each principal component (PC) is
 orthogonal on the former and are uncorrelated and have zero covariance. They each define the largest
 variance in an axis, such that PC 1 describes the direction of the maximum variance of the dataset. Each
-following PC describes the next highest variance of the dataset, with the constraint that is orthogonal
+following PC describes the next highest variance of the dataset, with the constraint that it is orthogonal
 and has zero covariance with any of the former PCs. PCA is the orthogonal projection of data onto a
 lower dimension linear space.  A PC is found by minimizing the variance by projecting the feature values (blue dots) onto the line (now red dots) describing the highest variance in the data set (black line) as seen on \figref{projection}. The PC is found by minimizing the mean square distance between the data points. \cite{Semmlow2004}
 
@@ -33,7 +35,7 @@ Where $b_{i}$ is used to calculate the eigenvectors as in:
 \begin{eqnarray}
 u_{i} = \frac{b_{i}}{\sqrt{b_{i}^{\textquoteright} b_{i}}}
 \end{eqnarray}
-Where $u_{i}$ is the i number of eigenvectors that contain a contribution to the principal components.
+Where $u_{i}$ is the $i$ number of eigenvectors that contain a contribution to the principal components.
 The SVD orders the eigenvalues by size $\lambda_{1} > \lambda_{2} … > \lambda_{i}$. The scores for each PC is equal to the corresponding eigenvalue for that exact axis. The eigenvalues describe how much of the variance is accounted for by the associated PC. Summation of all eigenvalues accounts for the total variance of the data set; this is called the trace. To find how much the each PC accounts for, the eigenvalue of that PC is divided by the total variance: $\%~ of~ total~ variance~ = \frac{\lambda_{i}}{Trace}$. This can be used for deciding how many components are significant and by how much the dataset can be reduced. \cite{Semmlow2004}
 
 \subsection{PCA in images}

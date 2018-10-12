@@ -1,6 +1,8 @@
 
 \section{Independent Component Analysis} \label{sec:ICA}
-ICA has proven to be a very successful tool in separating noise from wanted signal in BOLD-signals, making it a very desirable tool in fMRI \cite{Salimi-Khorshidi2014}. The basic idea about Independent Component Analysis (ICA) is to recover $m$ signal sources, which are mixed in $n$ observed signals. The observed signal is given by \cite{Hyvarinen2001}:
+Independent component analysis has proven to be a very useful tool in separating noise from wanted signal in many application. The methods has been adapted to work in BOLD-signals, making it a very desirable tool in fMRI. \cite{Salimi-Khorshidi2014} The following section will seek to elucidate the general basic theoretical background behind the analysis exposing it possible use in this project.  
+
+The basic idea about Independent Component Analysis (ICA) is to recover $m$ signal sources, which are mixed in $n$ observed signals. The observed signal is given by \cite{Hyvarinen2001}:
 \begin{equation}
 \mathbf{x} = \mathbf{A}\mathbf{s}
 \end{equation}
@@ -8,12 +10,12 @@ where \textbf{x} is a observed signal vector containing the mixed signal element
 \begin{equation}
 \mathbf{s} = \mathbf{A^{-1}}\mathbf{x}
 \end{equation}
-This can easily be achieved if the mixing matrix is known. However, this is rarely the case, as both the mixing matrix and source signals are unknown. There is no reliable way, to fully determine \textbf{s}, thus a set of assumptions are required, which the ICA method is based on\cite{Hyvarinen2001}:
+This can easily be achieved if the mixing matrix is known. However, this is rarely the case, as both the mixing matrix and source signals are unknown. There is no reliable way, to fully determine \textbf{s}, thus a set of assumptions are required, which the ICA method is based on \cite{Hyvarinen2001}:
 \begin{itemize}
 	\item The independent components (IC)’s are assumed to be statistically independent.
 	\item The IC’s must be non-Gaussian distributions.
 \end{itemize}
-Regarding the assumption of independence, a set of variables $y_1, y_2, ..., y_n$ is not allowed to share mutual information so that $i \neq j$. This can be expressed as the joint probability of the variables is equal the product of each marginal probability of the variables\cite{Hyvarinen2001}:
+Regarding the assumption of independence, a set of variables $y_1, y_2, ..., y_n$ is not allowed to share mutual information so that $i \neq j$. This can be expressed as the joint probability of the variables is equal the product of each marginal probability of the variables \cite{Hyvarinen2001}:
 \begin{equation}
 p(y_1, y_2, …, y_n) = p(y_1) \cdot p(y_2) \cdot ... \cdot p(y_n) 
 \end{equation} \label{eq:independence}
@@ -31,7 +33,7 @@ This can be expressed through performing a linear transformation of \textbf{x} i
 \begin{equation}
 \mathbf{z} = \mathbf{V}\mathbf{x} = \mathbf{V}\mathbf{A}\mathbf{s} 
 \end{equation}
-A graphical example of whitened data in two dimensions is shown in \figref{fig:back:whitening} \cite{Hyvarinen2001,Hyvarinen2000}.
+A graphical example of whitened data in two dimensions is shown in \figref{fig:back:whitening}  \cite{Hyvarinen2001,Hyvarinen2000}.
 
 \begin{figure}[H]                 
 	\includegraphics[width=.35\textwidth]{figures/aBackground/whitening}  
@@ -39,7 +41,7 @@ A graphical example of whitened data in two dimensions is shown in \figref{fig:b
 	\label{fig:back:whitening} 
 \end{figure}
 
-The squared distribution is clearly a rotated form of the independent data. What is left to ensure independence and solving the ICA problem is to estimate an angle that gives the correct rotation. Note that uncorrelatedness does not equal independency.
+The squared distribution is clearly a rotated form of the independent data. What is left to ensure independence and solving the ICA problem is to estimate an angle that gives the correct rotation.
 Concerning the second assumption on non-Gaussianity, the joint distribution of uncorrelated Gaussian distributions are not necessarily independent, and the distribution will be symmetrical and no information on the direction of the distribution can be derived. Thus, no transformation that allows independency can be performed, and the mixing matrix \textbf{A} can not be estimated from the mixtures. This can be shown in a two dimensional example with two sources $s_1$ and $s_2$ and the mixing matrix \textbf{A}, the joint probability density function (pdf) of Gaussian distributions is calculated as \cite{Hyvarinen2001}:
 \begin{equation} \label{using this?}
 \begin{split}
