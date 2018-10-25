@@ -75,23 +75,17 @@
 %---------------------------INPUTS-------------------------------
 
 %\input{contents/statusText.tex}
-%\chapter{Introduction} \label{chap:Introduction}
+\chapter{Introduction} \label{chap:Introduction}
+\input{contents/Introduction/aIntroduction.tex}
 
-\input{contents/wWorksheets/worksheets.tex}
-
-\chapter{Background} \label{chap:Background}
-\input{contents/wWorksheets/Background_intro.tex}
-\input{contents/wWorksheets/MRI_physics.tex}
-\input{contents/wWorksheets/fMRI_BOLD.tex}
-\input{contents/wWorksheets/MR_im_rec.tex}
-\input{contents/wWorksheets/Stimuli.tex}
-\input{contents/wWorksheets/Standard_preprocessing.tex}
-\input{contents/wWorksheets/ICA.tex}
-\input{contents/wWorksheets/PCA.tex}
-\input{contents/wWorksheets/GLM.tex}
-
+\chapter{Problem Analysis} \label{chap:Problem_analysis}
+\input{contents/Problem_analysis/Header_problem_analysis.tex}
+\input{contents/Problem_analysis/Pain_physiology.tex}
+\input{contents/Problem_analysis/Hemodynamic_Response.tex}
 %\chapter{Methods}
-%
+%\input{contents/Methods/Meth_intro.tex}
+%\input{contents/Methods/Standard_preprocessing.tex}
+%\input{contents/Methods/Compcor.tex}
 %\input{contents/Methods/FSL_FIX.tex}
 
 
@@ -105,10 +99,18 @@
 
 \cleardoublepage
 % BILAG
-%\begin{appendices}
-%	\chapter{Appendices}
-%
-%\end{appendices}
+\begin{appendices}
+	\chapter{Appendices}
+\input{contents/Appendix/MRI_physics.tex}
+%\input{contents/Appendix/fMRI_BOLD.tex}
+\input{contents/Appendix/MR_im_rec.tex}
+\input{contents/Appendix/Stimuli.tex}
+\input{contents/Appendix/Standard_preprocessing.tex}
+\input{contents/Appendix/ICA.tex}
+\input{contents/Appendix/PCA.tex}
+\input{contents/Appendix/GLM.tex}
+
+\end{appendices}
 
 
 \end{document}

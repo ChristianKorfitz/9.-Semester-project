@@ -1,0 +1,19 @@
+
+\subsection{Choosing the number of IC's}
+
+After having undergone the initial standard preprocessing presented in \secref{Standardpres}, the next was to extract the independent components using MELODIC as the spatial and temporal independent components analysis. But before the data could be subjected to the ICA, several considerations were made in order to increase ICA performance, by choosing a specific number of IC components. 
+
+Initially 10 subjects having three heat runs each where run using the MELODIC tool, not limiting the amount of IC's and thereby letting the MELODIC algorithm per default estimate the optimal number of components. This setup is recommended by the MELODIC developers. \cite{FMRIB2016,Beckmann2004} The initial 30 ICA runs resulted in an interval of number of components ranging from 9 to 64 independent components. Due to the substantial amount of difference in number of components estimated, the functional activity information were therefore left broken down in different amounts. Considering this, having an ICA produce nine components, results in the multiple sources not being separated, leaving it very difficult to differential between e.g. signal, movement noise and cardiac noise. The risk of underestimating the number of components, resulting in a loss of information and suboptimal signal extraction, made i relevant to consider manually setting a higher number of components, forcing a bigger separation \cite{Beckmann2004}. Contrary, the risk of overestimating the number of components was also present by having high number of components. The overestimation would result in false representation, as the different informative sources would be split leaving fractional sources, which would be very hard to identify and utilize \cite{Beckmann2004,Li2007}. The latter was also a present obstacle, when assessing the IC information, using the MELODIC default setting. \\
+
+The adversity 
+
+
+
+
+Our method 
+
+trade off between litt and our method
+
+what we chose
+
+example of well seperated and not   
