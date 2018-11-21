@@ -25,16 +25,11 @@ The spatial distortion can partially be corrected by employing field maps. In or
 
 \subsection{Slice timing correction} 
 
-Acquiring fMRI scans is nearly always done in two-dimensions, where the slices are taken one by one. This can either be in an ascending, descending or interleaved order. Interleaved order \fxnote{think it is done to avoid crosstalk} is sequentially skipping every either odd or even slice and then afterwards acquiring the skipped slices. Regardless of which order the slices are acquired, a difference in effect in each slice to the same hemodynamic response will be present due to the time difference in the slices. The method and result of interleaved MRI acquisition order can be seen \figref{fig:back:interleaved}. The difference in time between slices can range up to a couple of seconds depending on the acquisition protocol. 
+Acquiring fMRI scans the slices are taken one by one. This can either be in an ascending, descending or interleaved order. Interleaved order is sequentially skipping every either odd or even slice and then afterwards acquiring the skipped slices. Regardless of which order the slices are acquired, a difference in effect in each slice to the same hemodynamic response will be present due to the time difference in the slices. The method and result of interleaved MRI acquisition order can be seen \figref{fig:back:interleaved}. The difference in time between slices can range up to a couple of seconds depending on the acquisition protocol. 
 \begin{figure}[H] 
-	\subfigure[]
-	{\includegraphics[width=.38\textwidth]{figures/aBackground/slice}} 
-	\hspace{0.5cm}
-	\subfigure[]
 	{\includegraphics[width=.40\textwidth]{figures/aBackground/response}}  
-	\hspace{0.5cm}
 	\caption{Figure (a) illustrates an example of an MRI acquisition using interleaved order, where initially every odd slice is acquired followed by every even. The information about the hemodynamic response in each slice, and thereby also the difference at each time-point is shown in figure b. Figure modified from \cite{Poldrack2011}.}
-	\label{fig:back:interleaved}
+	\label{fig:meth:slice}
 \end{figure}
 
 The difference in slice timing constitutes a problem when analyzing the data. The data is formed into statistical model, but since this model assumes that all slices are acquired at the same time point, the actual signal and the statistical model creates a mismatch. To counter this problem slice timing correction has been introduced. The common approach of this method is to choose a reference slice. Usually the slice acquired at T/2, where T is the total scan time, is used to interpolate the others. Linear interpolation can be used for simplicity, but most often sinc interpolation is used as it imposes less smoothing to the signal. \cite{Poldrack2011} 
