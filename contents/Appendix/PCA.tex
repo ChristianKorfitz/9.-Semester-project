@@ -1,6 +1,5 @@
 
-
-\section{Principal Component Analysis}
+\section{Principal Component Analysis} \label{sec:pca}
 
 The use of principal component analysis (PCA) in denoising algorithms has been exploited in various studies, showing that the properties of the PCA might be useful \cite{Behzadi2013}. In this section the theory and common use of PCA is presented, including a small part on its use in images. 
 
@@ -37,10 +36,10 @@ u_{i} = \frac{b_{i}}{\sqrt{b_{i}^{\textquoteright} b_{i}}}
 \end{eqnarray}
 Where $u_{i}$ is the $i$ number of eigenvectors that contain a contribution to the principal components.
 The SVD orders the eigenvalues by size $\lambda_{1} > \lambda_{2} … > \lambda_{i}$. The scores for each PC is equal to the corresponding eigenvalue for that exact axis. The eigenvalues describe how much of the variance is accounted for by the associated PC. Summation of all eigenvalues accounts for the total variance of the data set; this is called the trace. To find how much the each PC accounts for, the eigenvalue of that PC is divided by the total variance: $\%~ of~ total~ variance~ = \frac{\lambda_{i}}{Trace}$. This can be used for deciding how many components are significant and by how much the dataset can be reduced. \cite{Semmlow2004}
-
-\subsection{PCA in images}
-
-The PCA can also be implemented on images, where the dimensionality reduction principle is mostly used for image compression. Here images can be reconstructed using only very few principle components without much information loss. Similarly PCA can be used to de-noise images, as noise would be presented in some of the less saying components, and by removing these, noise would be removed from the image. \\
-The PCA can be run on the entire image, but methods introducing local PCA in smaller windows of the image, have also been introduced for noise removal. \cite{MuraliMohanBabu2012}   
+%
+%\subsection{PCA in images}
+%
+%The PCA can also be implemented on images, where the dimensionality reduction principle is mostly used for image compression. Here images can be reconstructed using only very few principle components without much information loss. Similarly PCA can be used to de-noise images, as noise would be presented in some of the less saying components, and by removing these, noise would be removed from the image. \\
+%The PCA can be run on the entire image, but methods introducing local PCA in smaller windows of the image, have also been introduced for noise removal. \cite{MuraliMohanBabu2012}   
 
 
