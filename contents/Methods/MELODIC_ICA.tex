@@ -1,6 +1,59 @@
 \subsection{MELODIC ICA}
 
-\fxnote{NEEDS TO BE DOCUMENTED}
+After the implementation of the standard preprocessing, the subsequent step of the FIX implementation was to apply an ICA to the functional scan. ICA has for many years been a favored exploratory analysis tool in fMRI, as it allows for a decomposition of the signal information into estimated sources. Hence, it would be possible to differentiate between sources of brain activation, physiologic noise and other artifact contributers. ICA employs blind source separation techniques expressed as having a random set of variables (the acquired observations), as a linear combinations of statistically independent component variables (the sources). \cite{Beckmann2004} \\
+To achieve a decomposition of the BOLD signal into components each consisting of a source signal the FSL ICA tool MELODIC was utilized. The following section will document how the ICA was performed on fMRI data through the use of MELODIC. For a introduction of general ICA we refer to \secref{sec:ICA}. \\
 
 
-%Independent component analysis (ICA) – one of the most widely used techniques for the exploratory analysis offMRI data – has shown to be a powerful technique in iden- tifying various sources ofneuronally-related and artefactual fluctuation in fMRI data (bothwith the application of external stimuli and with the subject “at rest”). ICAdecomposes fMRI data into patterns ofactivity (a set ofspatial maps and their corresponding time series) that are statistically independent and add linearly to explain voxel- wise time series. Given the set of ICA components, if the components representing “signal” (brain activity) can be distinguished form the “noise” components (effects of motion, non-neuronal physiology, scanner artefacts and other nuisance sources), the latter can then be removed from the data. ). Thismodels the data as a linearmix- ture of different processes, the spatial distributions ofwhich are time- invariant (apart from overall amplitude modulation by the associated timecourse) and statistically independent. ICA assumes the following linear model Y ¼ AMþ E where Y is the T × Vmatrix offMRI time series with Ttime samples and Vvoxels; M is a K × Vmatrix ofK≪ T spatial components of the inde- pendent sources (comprisingVvoxels each) andA is the T × Kmatrix of the Kcorresponding time courses (comprising T samples each). E is the residuals in the probabilistic ICA model (Beckmann and Smith, 2004), and is assumed to comprise the unstructured noise that dominates the weakest eigenvectors of an initial principal components analysis de- composition applied before the main ICA algorithm. To reduce the structured noise using ICA, it is necessary to identi-fy the subset ofA andM that demonstrate artefactual behaviour tem- porally and/or spatially. Having found such a subset, one can clean the data by (for example) regressing the set of artefactual time courses Ab out of the original data, or by taking the product of arte- fact time courses and spatial maps AbMb and subtracting that from the data. For detailed investigations of different methods for re- gressing the artefactual components out of the data, see Griffanti et
+%Explain the original data and the PICA model 
+MELODIC is similar to the general ICA, but includes a probabilistic approach, forming what is called a Probabilistic ICA (PICA). It stills expresses the assumption that a vector of $p$ observations is generated from a set of $q$ statistically independent non-Gaussian sources via a linear instantaneous mixing process. In addition it is assumed that this process corrupted is by Gaussian noise $n(t)$ \cite{Beckmann2004}. This can be expressed as, 
+
+\begin{equation}
+x_i = As_i + \mu + n_i  \hspace{3em} \forall i \in V.
+\end{equation}     
+
+$x_i$ denotes a $p$-dimensional column vector of each measurement in a specific voxel $i$, which result in a column vector for each voxel $V$. $s_i$ denotes a $q$-dimensional column vector of the independent source signal contained in the data. $\mu$ denotes the mean of the observations $x_i$. $A$ is the $p\times q$ mixing matrix and $n_i$ is the Gaussian noise, which is estimated using a probabilistic principal component analysis (PPCA). Visualized in matrix form the input observations for each entire functional scan was set up as,
+\begin{equation}
+ \begin{bmatrix}
+x_{1,1} & x_{1,2} & \cdots & x_{1,217600} \\
+x_{2,1} & x_{2,2} & \cdots & x_{2,217600} \\
+\cdots & \cdots & \cdots & \vdots \\
+x_{193,1} & x_{193,2} & \cdots & x_{193,217600} 
+\end{bmatrix}  
+\end{equation}
+
+Thereby, for each of the 217600 voxels 193 measurements were made, resulting in a 193 $\times$ 217600 input matrix. In order to estimate the independent sources, the solution lies in finding a linear mixing matrix $W$, which makes:
+\begin{equation}
+\widehat{s}= Wx
+\end{equation}  
+Such that $\widehat{s}$ is the optimal approximation of independent source signals. 
+\subsubsection{PPCA}
+
+Before finding the mixing matrix PPCA is employed to estimate the "true" number of sources in the signal. A generel PCA is an often used method of reducing the dimensionality of a dataset. A general introduction to PCA can be found in \secref{sec:PCA}. The PPCA is used to find a usable linear subspace of sources. PPCA incorporates a probabilistic model, which is used to asses the number of true sources and random observed noise. Before employing the PPCA the input data was variance normalized. Finding the subspace of sources was done by using Singular Value Decomposition (SVD), which leaves the subspace with a set of sources which are orthogonal to each other and thereby being uncorrelated. Through a probabilistic Bayesian framework the number of true sources is estimated from the covariance matrix incorporating the information of unstructured noise that is found in the weakest eigenvectors of the PCA. Hence, through the PPCA a linear subspace of "true" signals was estimated. Furthermore, the PPCA estimated subspace is spatially whitened, which is beneficial as it simplifies the later ICA estimation by lowering the parameters to be estimated.  \\
+In this project there was not made use of the dimensionality estimation for reasons explained later in \secref{sec:optimal}. Hence, only a fixed number of sources were estimated being the first 25 "true" components describing the most of the variance.
+
+\subsubsection{PICA}
+
+The next step was to solve for the linear subspace, by estimating the mixing matrix, in order to achieve independent source signals. There are multiple approaches in which this can be achieved. The main idea of the PICA is the importance of the source distributions being assumed to be non-Gaussian with an additive Gaussian noise. Hence, estimating the unmixing matrix $W$ is based on maximizing non-Gaussianity. Non-Gaussianity was maximized by approximating neg-entropy. \\
+The result of solving the mixing matrix was a $193 \times 25$ matrix containing 25 independent components with a time course for each. In order to get a spatial map visualizing where the activation of a specific source was present, each voxel's time course was projected onto the columns of the unmixing matrix. These maps were then transformed in to Z score maps using the standard deviation of the prior estimated noise, which enables differentiating between source signal and background noise. Finally, a single spatial IC map for each component was made by fitting a Gaussian Mixture model to the individual IC maps to find voxel locations that were significantly activated through the IC time course. This made a probability map for each component, which was then thresholded to only capture meaningful activation. The resulting output of employing the MELODIC ICA was a $193 \times 25$ matrix of temporal components and a $25 \times 217600$ matrix of spatial components. A summarization of the input and output of MELODIC is illustrated in \eqref{eq:ica}, where the left-hand side was the input and the right-hand side was the two output matrices. 
+ 
+\begin{equation} \label{eq:ica}
+ \begin{bmatrix}
+	x_{1,1}  & \cdots & x_{1,217600} \\
+	x_{2,1}  & \cdots & x_{2,217600} \\
+	\cdots   & \cdots & \vdots \\
+	x_{193,1}& \cdots & x_{193,217600} 
+\end{bmatrix}
+= 
+\begin{bmatrix}
+	x_{1,1}  & \cdots & x_{1,25} \\
+	x_{2,1}  & \cdots & x_{2,25} \\
+	\vdots   & \cdots & \vdots \\
+	x_{193,1} & \cdots & x_{193,25} 
+\end{bmatrix}
+\bigotimes 
+\begin{bmatrix}
+	x_{1,1} & x_{1,2} & \cdots & x_{1,217600} \\
+	\cdots & \cdots & \cdots & \vdots \\
+	x_{25,1} & x_{25,2} & \cdots & x_{25,217600} 
+\end{bmatrix}
+\end{equation}

@@ -1,0 +1,4 @@
+\section{Intensity normalization}
+
+Before analysis of the two noise cleaned datasets, intensity normalization was applied to both. Intensity normalization was applied due to the assumption of a global signal change within a heat scan. The global signal change is believed to occur due to physiologic fluctuations related noxious stimuli, which creates blood pressure and perfusion changes. The global signal change is of no interest in the statistical analysis and therefore needs to be removed beforehand. \cite{Macey2004} \\
+Intensity normalization was implemented such that each volume in the heat scan was set to have the same mean intensity. This was done by calculating the mean intensity of each volume and the mean intensity for a whole scan. Then each volume is scaled such that each volume in the whole scan has the same mean intensity, forcing the global signal change to become a preset constant.  

@@ -1,5 +1,5 @@
 
-\subsection{Analysis of optimal number of ICs}
+\subsection{Analysis of optimal number of ICs} \label{sec:optimal}
 
 After having undergone the initial standard preprocessing presented in \secref{sec:std}, the next step was to extract the ICs using MELODIC. But before the data could be subjected to the ICA, several considerations were made in order to increase ICA performance. The separation of sources is highly dependent on the number of ICs (n-ICs) chosen and therefore crucial for the FIX end performance. Consequently an investigation of the optimal number of components was conducted. The risk of underestimating the number of components, would result in a loss of information and suboptimal signal extraction \cite{Beckmann2004}. Contrarily, overestimating the number of components would result in a false representation, as the different informative sources would be split leaving fractional sources, which would be very hard to identify and utilize \cite{Beckmann2004,Li2007}. \\
 Data used for investigating the optimal number of components was derived from ten randomly chosen subjects having three heat runs each. This made for 30 IC analyses each completed utilizing the MELODIC tool. 
@@ -17,24 +17,24 @@ Seeking guidelines in the literature, various articles have worked with estimati
 	\item The number of components containing no activation    
 \end{itemize}
  
-Examples of spatial maps containing multiple sources, fragmented sources and a single source can be seen in \figref{fig:meth:Unknown}, \figref{fig:meth:Frag} and \figref{fig:meth:Movement}, respectively. Identification of sources was supported by utilizing the guidelines presented in \cite{Griffanti2017}, showing how the different noise sources would be present in the spatial map and using the information of which brain regions would be activated during pain stimuli as presented in \secref{sec:pain}. Both investigators conducted the assessment. One found 25 components to be optimal, whilst the other found that 30 components was more favorable. The assessment was assisted by incorporating an expert's opinion from an expert on field of fMRI. With assistance from expert, 25 components was identified to provide the best separation of sources in the data. This decision was supported by the results of the prior studies of \cite{Kim2013,Erpelding2013}.     
+Examples of spatial maps containing multiple sources, fragmented sources and a single source can be seen in \figref{fig:meth:Unknown_mix}, \figref{fig:meth:Frag} and \figref{fig:meth:Move}, respectively. Identification of sources was supported by utilizing the guidelines presented in \cite{Griffanti2017}, showing how the different noise sources would be present in the spatial map and using the information of which brain regions would be activated during pain stimuli as presented in \secref{sec:pain}. Both investigators conducted the assessment. One found 25 components to be optimal, whilst the other found that 30 components was more favorable. The assessment was assisted by incorporating an expert's opinion from an expert on field of fMRI. With assistance from expert, 25 components was identified to provide the best separation of sources in the data. This decision was supported by the results of the prior studies of \cite{Kim2013,Erpelding2013}.     
 
 \begin{figure}[H]                 
-	\includegraphics[width=.8\textwidth]{figures/bMethods/Unknown}  
+	\includegraphics[width=.85\textwidth]{figures/bMethods/Unknown_mix}  
 	\caption{An example of a  component with a spatial map for a component showing activation from multiple sources. Activation could not be localized to single brain regions, and was mixture of noise and signal.}
-	\label{fig:meth:Unknown} 
+	\label{fig:meth:Unknown_mix} 
 \end{figure}
 
 \begin{figure}[H]                 
-	\includegraphics[width=.8\textwidth]{figures/bMethods/Frag}  
+	\includegraphics[width=.85\textwidth]{figures/bMethods/Frag}  
 	\caption{An example of a component with a fragmented spatial map illustrating that no brain activation or noise can be localized.}
 	\label{fig:meth:Frag} 
 \end{figure}
 
 \begin{figure}[H]                 
-	\includegraphics[width=.8\textwidth]{figures/bMethods/Movement}  
+	\includegraphics[width=.85\textwidth]{figures/bMethods/Movement}  
 	\caption{An example of a spatial map showing a clearly recognizable single source artifact in the form of movement dominating the component.}
-	\label{fig:meth:Movement} 
+	\label{fig:meth:Move} 
 \end{figure}
 
 
