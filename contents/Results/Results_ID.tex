@@ -1,28 +1,31 @@
-\section{Results Individual differences}
+\section{Results Individual Differences}
 
-The secondary research question declaring the interest in investigating possible individual differences in brain activation related to sensitivity, and if the use of FSL FIX would in increase any findings. The amount positive and negative brain activation related to the sensitivity of each individual in the test population can be seen in \figref{STD_pos_ID} and \figref{STD_neg_ID} when preprocessing the data using standard preprocessing. 
+This section addresses the secondary research question that involved an investigation of possible individual differences in brain activation related to sensitivity, and if the use of FSL FIX would in increase any findings. The amount positive and negative brain activation related to the pain sensitivity of each individual in the test population can be seen in \figref{STD_pos_ID} and \figref{STD_neg_ID} when preprocessing the data using standard preprocessing.  
 
 \begin{figure}[H]                 
 	\includegraphics[width=.65\textwidth]{figures/Results/STD_pos_ID}  
-	\caption{An example component of signal, which is recognizable, isolated, and not corrupted by a substantial amount of noise. In this example, the signal is characterized as a strong and fairly isolated activation mainly in the parietal lobe and some in the temporal lobe.}
+	\caption{Positive activation map showing any possible brain regions related to the individual perception of pain after the use of standard preprocessing. }
 	\label{STD_pos_ID} 
 \end{figure}
 
 \begin{figure}[H]                 
 	\includegraphics[width=.65\textwidth]{figures/Results/STD_neg_ID}  
-	\caption{An example component of signal, which is recognizable, isolated, and not corrupted by a substantial amount of noise. In this example, the signal is characterized as a strong and fairly isolated activation mainly in the parietal lobe and some in the temporal lobe.}
+	\caption{Negative activation map showing any possible brain regions related to the individual perception of pain after the use of standard preprocessing.}
 	\label{STD_neg_ID} 
 \end{figure}
+ 
+It is seen that neither positive or negative activation is present in any areas of the brain. Only a very small activation is seen in the negative activation map, but as it is localized between brain hemispheres it is most likely of artifactual nature. The amount of general brain activation presented in \secref{sec:comp}, found by using standard preprocessing does not seem to bring out the activation that might be related to individual differences, if the presence of these would be the case. \\
+Using FSL FIX for preprocessing resulted in a higher signal-to-noise ratio, but even when achieving this, it had no impact on the discovery of any possible individual differences. This can be seen on \figref{FIX_pos_ID} and \figref{FIX_neg_ID}, were no activation is seen on the positive or negative map, respectively. The only difference of using FSL FIX it the negative activation found using standard preprocessing is now removed, increasing the likelihood of being noise related. 
 
 \begin{figure}[H]                 
 	\includegraphics[width=.65\textwidth]{figures/Results/FIX_pos_ID}  
-	\caption{An example component of signal, which is recognizable, isolated, and not corrupted by a substantial amount of noise. In this example, the signal is characterized as a strong and fairly isolated activation mainly in the parietal lobe and some in the temporal lobe.}
+	\caption{Positive activation map showing any possible brain regions related to the individual perception of pain after the use of FIX for preprocessing.}
 	\label{FIX_pos_ID} 
 \end{figure}
 
 \begin{figure}[H]                 
 	\includegraphics[width=.65\textwidth]{figures/Results/FIX_neg_ID}  
-	\caption{An example component of signal, which is recognizable, isolated, and not corrupted by a substantial amount of noise. In this example, the signal is characterized as a strong and fairly isolated activation mainly in the parietal lobe and some in the temporal lobe.}
+	\caption{Negative activation map showing any possible brain regions related to the individual perception of pain after the use of FIX for preprocessing.}
 	\label{FIX_neg_ID} 
 \end{figure}
 

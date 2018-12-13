@@ -1,0 +1,3836 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Dahlhamer2018}{article}{}
+    \name{author}{10}{}{%
+      {{hash=DJ}{%
+         family={Dahlhamer},
+         familyi={D\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lucas},
+         familyi={L\bibinitperiod},
+         given={Jacqueline},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZC}{%
+         family={Zelaya},
+         familyi={Z\bibinitperiod},
+         given={Carla},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NR}{%
+         family={Nahin},
+         familyi={N\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mackey},
+         familyi={M\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={DeBar},
+         familyi={D\bibinitperiod},
+         given={Lynn},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kerns},
+         familyi={K\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={{Von Korff}},
+         familyi={V\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Porter},
+         familyi={P\bibinitperiod},
+         given={Linda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Helmick},
+         familyi={H\bibinitperiod},
+         given={Charles},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJ+1}
+    \strng{fullhash}{DJLJZCNRMSDLKRVMPLHC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Chronic pain, one of the most common reasons adults seek medical care (1),
+  has been linked to restrictions in mobility and daily activities (2,3),
+  dependence on opioids (4), anxiety and depression (2), and poor perceived
+  health or reduced quality of life (2,3). Population-based estimates of
+  chronic pain among U.S. adults range from 11{\%} to 40{\%} (5), with
+  considerable population subgroup variation. As a result, the 2016 National
+  Pain Strategy called for more precise prevalence estimates of chronic pain
+  and high-impact chronic pain (i.e., chronic pain that frequently limits life
+  or work activities) to reliably establish the prevalence of chronic pain and
+  aid in the development and implementation of population-wide pain
+  interventions (5). National estimates of high-impact chronic pain can help
+  differentiate persons with limitations in major life domains, including work,
+  social, recreational, and self-care activities from those who maintain normal
+  life activities despite chronic pain, providing a better understanding of the
+  population in need of pain services. To estimate the prevalence of chronic
+  pain and high-impact chronic pain in the United States, CDC analyzed 2016
+  National Health Interview Survey (NHIS) data. An estimated 20.4{\%} (50.0
+  million) of U.S. adults had chronic pain and 8.0{\%} of U.S. adults (19.6
+  million) had high-impact chronic pain, with higher prevalences of both
+  chronic pain and high-impact chronic pain reported among women, older adults,
+  previously but not currently employed adults, adults living in poverty,
+  adults with public health insurance, and rural residents. These findings
+  could be used to target pain management interventions.%
+    }
+    \verb{doi}
+    \verb 10.15585/mmwr.mm6736a2
+    \endverb
+    \field{issn}{1545-861X}
+    \field{number}{36}
+    \field{pages}{1001\bibrangedash 1006}
+    \field{title}{{Prevalence of Chronic Pain and High-Impact Chronic Pain
+  Among Adults - United States, 2016.}}
+    \verb{url}
+    \verb https://www.cdc.gov/mmwr/volumes/67/wr/mm6736a2.htm{\%}0Ahttp://www.n
+    \verb cbi.nlm.nih.gov/pubmed/30212442
+    \endverb
+    \field{volume}{67}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/mm6736a2-H.pdf:pdf
+    \endverb
+    \field{journaltitle}{MMWR. Morbidity and mortality weekly report}
+    \field{year}{2018}
+  \endentry
+
+  \entry{NationalCenterforHealthStatisticsHealth2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{National Center for Health Statistics Health}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780300111293}
+    \field{pages}{559}
+    \field{title}{{Health, United States, 2006 With Chartbook on Trends in the
+  Health of Americans}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/National Center for Health Statistics Health - 2006 -
+    \verb Health, United States, 2006 With Chartbook on Trends in the Health of
+    \verb  Americans.pdf:pdf
+    \endverb
+    \field{year}{2006}
+  \endentry
+
+  \entry{InstituteofMedicine2011}{book}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={{Institute of Medicine}},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Department of Health and Human Services, National Institutes of Health,
+  has requested that the IOM (Institute of Medicine) convene the ad hoc
+  committee to address the current state of the science with respect to pain
+  research, care, and education; and explore approaches to advance the field.
+  Specifically, the committee will Review and quantify the public health
+  significance of pain, including the adequacy of assessment, diagnosis,
+  treatment, and management of acute and chronic pain in the United States.
+  This effort will take a comprehensive view of chronic pain as a biological,
+  biobehavioral, and societal condition. Identify barriers to appropriate pain
+  care and strategies to reduce such barriers, including exploring the
+  importance of individualized approaches to diagnosis and treatment of pain.
+  Identify demographic groups and special populations, including older adults,
+  individuals with co-morbidities, and cognitive impairment, that may be
+  disparately undertreated for pain, and discuss related research needs,
+  barriers particularly associated with these demographic groups, and
+  opportunities to reduce such barriers. Identify and discuss what scientific
+  tools and technologies are available, what strategies can be employed to
+  enhance training of pain researchers, and what interdisciplinary research
+  approaches will be necessary in the short and long term to advance basic,
+  translational, and clinical pain research and improve the assessment,
+  diagnosis, treatment, and management of pain. Discuss opportunities for
+  public–private partnerships in the support and conduct of pain research,
+  care, and education.%
+    }
+    \field{booktitle}{Journal of Pain {\&} Palliative Care Pharmacotherapy}
+    \verb{doi}
+    \verb 10.3109/15360288.2012.678473
+    \endverb
+    \field{isbn}{978-0-309-25627-8}
+    \field{issn}{1536-0288}
+    \field{number}{2}
+    \field{pages}{197\bibrangedash 198}
+    \field{title}{{Relieving Pain in America: a Blueprint for Transforming
+  Prevention, Care, Education, and Research}}
+    \verb{url}
+    \verb http://www.tandfonline.com/doi/full/10.3109/15360288.2012.678473
+    \endverb
+    \field{volume}{26}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/IOM-Full-Report.pdf:pdf
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{Davis2017}{article}{}
+    \name{author}{10}{}{%
+      {{hash=DKD}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Karen\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Flor},
+         familyi={F\bibinitperiod},
+         given={Herta},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GHT}{%
+         family={Greely},
+         familyi={G\bibinitperiod},
+         given={Henry\bibnamedelima T.},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=IGD}{%
+         family={Iannetti},
+         familyi={I\bibinitperiod},
+         given={Gian\bibnamedelima Domenico},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={MacKey},
+         familyi={M\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Ploner},
+         familyi={P\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pustilnik},
+         familyi={P\bibinitperiod},
+         given={Amanda},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TI}{%
+         family={Tracey},
+         familyi={T\bibinitperiod},
+         given={Irene},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=TRD}{%
+         family={Treede},
+         familyi={T\bibinitperiod},
+         given={Rolf\bibnamedelima Detlef},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WTD}{%
+         family={Wager},
+         familyi={W\bibinitperiod},
+         given={Tor\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{DKD+1}
+    \strng{fullhash}{DKDFHGHTIGDMSPMPATITRDWTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Antecedentes: Una alimentaci{\'{o}}n {\'{o}}ptima, especialmente durante la
+  infancia y adolescencia, es un importante objetivo social, ya que se crean
+  h{\'{a}}bitos y conductas alimentarias que se mantendr{\'{a}}n durante la
+  vida adulta. Objetivo: El objetivo de este estudio es recoger y valorar la
+  publicidad de alimentos dirigida a un p{\'{u}}blico infantil, antes de la
+  aprobaci{\'{o}}n del c{\'{o}}digo de autorregulaci{\'{o}}n de la publicidad e
+  alimentos dirigida a menores, prevenci{\'{o}}n de la obesidad y salud
+  (C{\'{o}}digo PAOS) y despu{\'{e}}s de su puesta en marcha. {\'{A}}mbito,
+  material y m{\'{e}}todos: Se visionaron y se recogieron datos de los anuncios
+  de alimentos emitidos por televisi{\'{o}}n en horario de programaci{\'{o}}n
+  infantil. Resultados: Los resultados obtenidos expresan una gran discrepancia
+  entre la dieta compuesta por los alimentos anunciados y una dieta normal
+  recomendada para ni{\~{n}}os, as{\'{i}} como la ausencia de modificaciones en
+  la publicidad tras la entrada en vigor de dicho c{\'{o}}digo.
+  Conclusi{\'{o}}n: Los alimentos hipercal{\'{o}}ricos ofertados a menores en
+  los espacios publicitarios de la programaci{\'{o}}n infantil no son los
+  adecuados para una dieta {\'{o}}ptima. La puesta en marcha del C{\'{o}}digo
+  PAOS no ha tenido mucha repercusi{\'{o}}n sobre la cantidad y la calidad de
+  los anuncios de alimentos destinados al p{\'{u}}blico infantil.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrneurol.2017.122
+    \endverb
+    \field{isbn}{0212-1611 UL -
+  http://scielo.isciii.es/scielo.php?script=sci{\_}arttext{\&}pid=S0212-16112009000300009{\&}nrm=iso}
+    \field{issn}{17594766}
+    \field{number}{10}
+    \field{pages}{624\bibrangedash 638}
+    \field{title}{{Brain imaging tests for chronic pain: Medical, legal and
+  ethical issues and recommendations}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1038/nrneurol.2017.122
+    \endverb
+    \field{volume}{13}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Davis et al. - 2017 - Brain imaging tests for chronic
+    \verb pain Medical, legal and ethical issues and recommendations.pdf:pdf
+    \endverb
+    \field{journaltitle}{Nature Reviews Neurology}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Merskey1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MH}{%
+         family={Merskey},
+         familyi={M\bibinitperiod},
+         given={Harold},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Bogduk},
+         familyi={B\bibinitperiod},
+         given={Nikolai},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MHBN1}
+    \strng{fullhash}{MHBN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Classification of Cronic Pain}}
+    \field{volume}{2}
+    \field{journaltitle}{International Associasion for the Study of Pain}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Brook2011}{book}{}
+    \name{author}{3}{}{%
+      {{hash=BP}{%
+         family={Brook},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pickering},
+         familyi={P\bibinitperiod},
+         given={Tony},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Connell},
+         familyi={C\bibinitperiod},
+         given={Jayne},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{BPPTCJ1}
+    \strng{fullhash}{BPPTCJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{1st}
+    \field{isbn}{9780199298143}
+    \field{pages}{463}
+    \field{title}{{Oxford Handbook of Pain Management}}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Garland2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GEL}{%
+         family={Garland},
+         familyi={G\bibinitperiod},
+         given={Eric\bibnamedelima L},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Ph},
+         familyi={P\bibinitperiod},
+         given={D},
+         giveni={D},
+      }}%
+    }
+    \keyw{affective,autonomic,cognitive,neurobiology,nociception,pain}
+    \strng{namehash}{GELPD1}
+    \strng{fullhash}{GELPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.pop.2012.06.013.Pain
+    \endverb
+    \field{number}{3}
+    \field{pages}{561\bibrangedash 571}
+    \field{title}{{Pain Processing in the Human Nervous System: A Selective
+  Review of Nociceptive and Biobehavioral Pathways Eric}}
+    \field{volume}{39}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Garland, Ph - 2013 - Pain Processing in the Human Nerv
+    \verb ous System A Selective Review of Nociceptive and Biobehavioral Pathwa
+    \verb ys Eric.pdf:pdf
+    \endverb
+    \field{journaltitle}{Vickrey BG, Shekelle P, Morton S, et al. Prevention
+  and Management of Urinary Tract Infections in Paralyzed Persons: Summary.
+  1999 Jan. In: AHRQ Evidence Report Summaries. Rockville (MD): Agency for
+  Healthcare Research and Quality (US); 1998-2005. 6. Avai}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Schmidt1986}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SRF}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima F.},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SRF1}
+    \strng{fullhash}{SRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{Third edit}
+    \field{title}{{Fundamentals of Sensory Physiology}}
+    \field{year}{1986}
+  \endentry
+
+  \entry{Nielsen2008}{article}{}
+    \name{author}{6}{}{%
+      {{hash=NCS}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Christopher\bibnamedelima S.},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Stubhaug},
+         familyi={S\bibinitperiod},
+         given={Audun},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PDD}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={Donald\bibnamedelima D.},
+         giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vassend},
+         familyi={V\bibinitperiod},
+         given={Olav},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=CN}{%
+         family={Czajkowski},
+         familyi={C\bibinitperiod},
+         given={Nikolai},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJR}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Jennifer\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Behavioral genetics,Genetics,Heritability,Individual
+  differences,Pain,Twins}
+    \strng{namehash}{NCS+1}
+    \strng{fullhash}{NCSSAPDDVOCNHJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Large individual differences in pain sensitivity present a challenge for
+  medical diagnosis and may be of importance for the development of chronic
+  pain. Variance in pain sensitivity is partially mediated by genetic factors,
+  but the extent of this contribution is uncertain. We examined cold-pressor
+  pain and contact heat pain in 53 identical (MZ) and 39 fraternal (DZ) twin
+  pairs, and 4 single twins to determine the heritability of the two
+  phenotypes, and the extent to which the same genetic and environmental
+  factors affect both pain modalities. An estimated 60{\%} of the variance in
+  cold-pressor pain and 26{\%} of the variance in heat pain was genetically
+  mediated. Genetic and environmental factors were only moderately correlated
+  across pain modalities. Genetic factors common to both modalities explained
+  7{\%} of the variance in cold-pressor and 3{\%} of the variance in heat pain.
+  Environmental factors common to both modalities explained 5{\%} of variance
+  in cold-pressor and 8{\%} of the variance in heat pain. The remaining
+  variance was due to factors that were specific to each pain modality. These
+  findings demonstrate that cold-pressor pain and contact heat pain are mainly
+  distinct phenomena from both a genetic and an environmental standpoint. This
+  may partly explain disparate results in genetic association studies and
+  argues for caution in generalizing genetic findings from one pain modality to
+  another. It also indicates that differences in pain scale usage account for a
+  minor portion of the variance, providing strong support for the validity of
+  subjective pain ratings as measures of experienced pain. {\textcopyright}
+  2007 International Association for the Study of Pain.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.pain.2007.06.008
+    \endverb
+    \field{isbn}{03043959 (ISSN)}
+    \field{issn}{03043959}
+    \field{number}{1-2}
+    \field{pages}{21\bibrangedash 29}
+    \field{title}{{Individual differences in pain sensitivity: Genetic and
+  environmental contributions}}
+    \field{volume}{136}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/1-s2.0-S0304395907003107-main.pdf
+    \verb :pdf
+    \endverb
+    \field{journaltitle}{Pain}
+    \field{year}{2008}
+  \endentry
+
+  \entry{Coghill2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CRC}{%
+         family={Coghill},
+         familyi={C\bibinitperiod},
+         given={Robert\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Individual differences in pain sensitivity have lo,another,brain
+  imaging techniques. Continued delineation of,even when they have received
+  similar sensory input,optimize pain treatment on an
+  individual-by-indivi,problem. How can one individual have a sensory
+  exp,psychophysical findings are integrated with measur,such differences and
+  the mechanisms that support t,to the development of combined
+  psychophysical/psyc}
+    \strng{namehash}{CRC1}
+    \strng{fullhash}{CRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1111/j.1526-4610.2010.01763.x.Individual
+    \endverb
+    \field{number}{9}
+    \field{pages}{1531\bibrangedash 1535}
+    \field{title}{{Individual Differences in the Subjective Experience of Pain:
+  New Insights into Mechanisms and Models}}
+    \field{volume}{50}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Coghill - 2011 - Individual Differences in the Subject
+    \verb ive Experience of Pain New Insights into Mechanisms and Models(2).pdf
+    \verb :pdf
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{Feizerfan2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FA}{%
+         family={Feizerfan},
+         familyi={F\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+    }
+    \strng{namehash}{FA1}
+    \strng{fullhash}{FA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Pain is commonly classified into acute and chronic. Acute pain implies a
+  painful condition with a rapid onset or of a short course whereas chronic
+  pain is referred to as a painful condition persisting beyond the normal time
+  of healing. Transition of acute pain to chronic pain is an observed entity
+  associated with enormous burden on the healthcare system. Minimization of
+  this transition has been a challenge for decades. Numerous studies have
+  investigated different factors that increase susceptibility in transition of
+  acute to chronic pain. This article focuses on the basic science and
+  pathophysiological changes during pain processing and clinical modalities
+  aiming to minimize the risk of transition from acute to chronic pain. Pain
+  physiology during acute tissue injury In the periphery Acute tissue insults
+  such as heat, cold, chemical or mechanical injury, cause disturbance in
+  homeosta-sis, and stimulate the pain receptors, called noci-ceptors.
+  Homeostasis can be restored by activation and complex interaction among
+  autonomic, endo-crine, immune, and nervous systems. 1 After an injury, a wide
+  range of inflammatory mediators are released locally either from damaged
+  tissue or by activated mast cells and neutrophils. These media-tors are
+  adenosine-5-triphosphate (ATP), bradyki-nin, prostaglandin E2, sodium (Na
+  þ), hydrogen (H þ), potassium (K þ), histamine, and serotonin. The
+  released substances interact with their corre-sponding receptors located on
+  the peripheral noci-ceptive neurones leading to depolarization of cell
+  membrane and impulse generation within Ad and C fibres. After tissue injury,
+  cyclo-oxygenase-2 enzyme is activated and macrophages release
+  pro-inflammatory substances such as interleukin-1B, interleukin-6, nerve
+  growth factor, and tumour ne-crosis factor-alpha (TNF-a). Peripheral
+  inflamma-tion at the site of tissue injury activates C-fibres, which release
+  substance P, calcitonin gene-related peptide (CGRP), neurokinin A and nitric
+  oxide (NO) in a retrograde fashion called 'neurogenic inflammation'. This
+  amplifies the whole process resulting in an 'inflammatory soup'. The end
+  result is further activation of 'silent' C fibres with a reduction of pain
+  threshold and increased excitability.%
+    }
+    \verb{doi}
+    \verb 10.1017/CBO9780511576706.010
+    \endverb
+    \field{isbn}{9780511576706}
+    \field{issn}{1743-1816}
+    \field{number}{2}
+    \field{pages}{98\bibrangedash 102}
+    \field{title}{{Transitions from acute to chronic pain}}
+    \field{volume}{15}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{Acute Pain Management}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Mcgreevy2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MK}{%
+         family={McGreevy},
+         familyi={M\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BMM}{%
+         family={Bottros},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RSN}{%
+         family={Raja},
+         familyi={R\bibinitperiod},
+         given={Srinivasa\bibnamedelima N.},
+         giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{chronic,persistent post-surgical pain,post-traumatic pain,prevention}
+    \strng{namehash}{MKBMMRSN1}
+    \strng{fullhash}{MKBMMRSN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.eujps.2011.08.013.Preventing
+    \endverb
+    \field{number}{2}
+    \field{pages}{365\bibrangedash 372}
+    \field{title}{{Preventing Chronic Pain following Acute Pain: Risk Factors,
+  Preventive Strategies, and their Efficacy}}
+    \field{volume}{5}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/McGreevy, Bottros, Raja - 2011 - Preventing Chronic Pa
+    \verb in following Acute Pain Risk Factors, Preventive Strategies, and thei
+    \verb r Efficacy.pdf:pdf
+    \endverb
+    \field{journaltitle}{European Journal of Pain Supplem}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Coghill2003}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CRC}{%
+         family={Coghill},
+         familyi={C\bibinitperiod},
+         given={Robert\bibnamedelima C},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MJG}{%
+         family={Mchaffie},
+         familyi={M\bibinitperiod},
+         given={John\bibnamedelima G},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=YY}{%
+         family={Yen},
+         familyi={Y\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+    }
+    \strng{namehash}{CRCMJGYY1}
+    \strng{fullhash}{CRCMJGYY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1073/pnas.1719365114
+    \endverb
+    \field{isbn}{1430684100}
+    \field{issn}{0027-8424}
+    \field{number}{48}
+    \field{pages}{E10507\bibrangedash E10507}
+    \field{title}{{Neural correlates of interindividual differences in the
+  subjective experience of pain}}
+    \verb{url}
+    \verb http://www.pnas.org/lookup/doi/10.1073/pnas.1719365114
+    \endverb
+    \field{volume}{114}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Coghill, Mchaffie, Yen - 2003 - Neural correlates of i
+    \verb nterindividual differences in the subjective experience of pain.pdf:p
+    \verb df
+    \endverb
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Kim2004}{article}{}
+    \name{author}{8}{}{%
+      {{hash=KH}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Hyungsuk},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=NJK}{%
+         family={Neubert},
+         familyi={N\bibinitperiod},
+         given={John\bibnamedelima K.},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={{San Miguel}},
+         familyi={S\bibinitperiod},
+         given={Anitza},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=XK}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Ke},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KRK}{%
+         family={Krishnaraju},
+         familyi={K\bibinitperiod},
+         given={Raj\bibnamedelima K.},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=IMJ}{%
+         family={Iadarola},
+         familyi={I\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Goldman},
+         familyi={G\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DRA}{%
+         family={Dionne},
+         familyi={D\bibinitperiod},
+         given={Raymond\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Ethnicity,Experimental pain human model,Gender,Genetic
+  variation,Temperament}
+    \strng{namehash}{KH+1}
+    \strng{fullhash}{KHNJKSAXKKRKIMJGDDRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    While a variety of cultural, psychological and physiological factors
+  contribute to variability in both clinical and experimental contexts, the
+  role of genetic factors in human pain sensitivity is increasingly recognized
+  as an important element. This study was performed to evaluate genetic
+  influences on variability in human pain sensitivity associated with gender,
+  ethnicity and temperament. Pain sensitivity in response to experimental
+  painful thermal and cold stimuli was measured with visual analogue scale
+  ratings and temperament dimensions of personality were evaluated. Loci in the
+  vanilloid receptor subtype 1 gene (TRPV1), $\delta$ opioid receptor subtype 1
+  gene (OPRD1) and catechol O-methyltransferase gene (COMT) were genotyped
+  using 5′ nuclease assays. A total of 500 normal participants (306 females
+  and 194 males) were evaluated. The sample composition was 62.0{\%} European
+  American, 17.4{\%} African American, 9.0{\%} Asian American, and 8.6{\%}
+  Hispanic, and 3.0{\%} individuals with mixed racial parentage. Female
+  European Americans with the TRPV1 Val585Val allele and males with low harm
+  avoidance showed longer cold withdrawal times based on the classification and
+  regression tree (CART) analysis. CART identified gender, an OPRD1
+  polymorphism and temperament dimensions of personality as the primary
+  determinants of heat pain sensitivity at 49°C. Our observations demonstrate
+  that gender, ethnicity and temperament contribute to individual variation in
+  thermal and cold pain sensitivity by interactions with TRPV1 and OPRD1 single
+  nucleotide polymorphisms. {\textcopyright} 2004 Published by Elsevier B.V. on
+  behalf of International Association for the Study of Pain.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.pain.2004.02.027
+    \endverb
+    \field{isbn}{0304-3959}
+    \field{issn}{03043959}
+    \field{number}{3}
+    \field{pages}{488\bibrangedash 496}
+    \field{title}{{Genetic influence on variability in human acute experimental
+  pain sensitivity associated with gender, ethnicity and psychological
+  temperament}}
+    \field{volume}{109}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/1-s2.0-S0304395904001198-main.pdf
+    \verb :pdf
+    \endverb
+    \field{journaltitle}{Pain}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Emerson2014}{article}{}
+    \name{author}{5}{}{%
+      {{hash=ENM}{%
+         family={Emerson},
+         familyi={E\bibinitperiod},
+         given={Nichole\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=ZF}{%
+         family={Zeidan},
+         familyi={Z\bibinitperiod},
+         given={Fadel},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LOV}{%
+         family={Lobanov},
+         familyi={L\bibinitperiod},
+         given={Oleg\bibnamedelima V.},
+         giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=HMS}{%
+         family={Hadsel},
+         familyi={H\bibinitperiod},
+         given={Morten\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MKT}{%
+         family={Martucci},
+         familyi={M\bibinitperiod},
+         given={Katherine\bibnamedelima T.},
+         giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ENM+1}
+    \strng{fullhash}{ENMZFLOVHMSMKT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.pain.2013.12.004.Pain
+    \endverb
+    \field{number}{3}
+    \field{pages}{566\bibrangedash 573}
+    \field{title}{{Pain Sensitivity is Inversely Related to Regional Grey
+  Matter Density in the Brain Nichole}}
+    \field{volume}{155}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/nihms-548300.pdf:pdf
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{Tracey2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TI}{%
+         family={Tracey},
+         familyi={T\bibinitperiod},
+         given={Irene},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=MPW}{%
+         family={Mantyh},
+         familyi={M\bibinitperiod},
+         given={Patrick\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TIMPW1}
+    \strng{fullhash}{TIMPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Clinical pain is a serious public health issue. Treatment of pain-related
+  suffering requires knowledge of how pain signals are initially interpreted
+  and subsequently transmitted and perpetuated. This review article is one of
+  three reviews in this issue of Neuron that address our understanding of the
+  pain process and possible solutions to the problem from both cellular- and
+  systems-level viewpoints. Our understanding of the neural correlates of pain
+  perception in humans has increased significantly since the advent of
+  neuroimaging. Relating neural activity changes to the varied pain experiences
+  has led to an increased awareness of how factors (e.g., cognition, emotion,
+  context, injury) can separately influence pain perception. Tying this body of
+  knowledge in humans to work in animal models of pain provides an opportunity
+  to determine common features that reliably contribute to pain perception and
+  its modulation. One key system that underpins the ability to change pain
+  intensity is the brainstem's descending modulatory network with its pro- and
+  antinociceptive components. We discuss not only the latest data describing
+  the cerebral signature of pain and its modulation in humans, but also suggest
+  that the brainstem plays a pivotal role in gating the degree of nociceptive
+  transmission so that the resultant pain experienced is appropriate for the
+  particular situation of the individual. {\textcopyright} 2007 Elsevier Inc.
+  All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuron.2007.07.012
+    \endverb
+    \field{isbn}{0896-6273 (Print)$\backslash$r0896-6273 (Linking)}
+    \field{issn}{08966273}
+    \field{number}{3}
+    \field{pages}{377\bibrangedash 391}
+    \field{title}{{The Cerebral Signature for Pain Perception and Its
+  Modulation}}
+    \field{volume}{55}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/pain.pdf:pdf
+    \endverb
+    \field{journaltitle}{Neuron}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Basbaum2009}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BAI}{%
+         family={Basbaum},
+         familyi={B\bibinitperiod},
+         given={Allan\bibnamedelima I.},
+         giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=BDM}{%
+         family={Bautista},
+         familyi={B\bibinitperiod},
+         given={Diana\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Scherrer},
+         familyi={S\bibinitperiod},
+         given={Gr{\'{e}}gory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=JD}{%
+         family={Julius},
+         familyi={J\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BAI+1}
+    \strng{fullhash}{BAIBDMSGJD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The nervous system detects and interprets a wide range of thermal and
+  mechanical stimuli as well as environmental and endogenous chemical
+  irritants. When intense, these stimuli generate acute pain, and in the
+  setting of persistent injury, both peripheral and central nervous system
+  components of the pain transmission pathway exhibit tremendous plasticity,
+  enhancing pain signals and producing hypersensitivity. When plasticity
+  facilitates protective reflexes, it can be beneficial, but when the changes
+  persist, a chronic pain condition may result. Genetic, electrophysiological,
+  and pharmacological studies are elucidating the molecular mechanisms that
+  underlie detection, coding, and modulation of noxious stimuli that generate
+  pain. Introduction:%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cell.2009.09.028.Cellular
+    \endverb
+    \field{number}{2}
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{{Cellular and Molecular Mechanisms of Pain}}
+    \field{volume}{139}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/nihms155644.pdf:pdf
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{Glover2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=GGH}{%
+         family={Glover},
+         familyi={G\bibinitperiod},
+         given={Gary\bibnamedelima H},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{fmri,functional magnetic resonance imaging}
+    \strng{namehash}{GGH1}
+    \strng{fullhash}{GGH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Blood Oxygen Level Dependent (BOLD) functional magnetic resonance imaging
+  (fMRI) depicts changes in deoxyhemoglobin concentration consequent to
+  task-induced or spontaneous modulation of neural metabolism. Since its
+  inception in 1990, this method has been widely employed in thousands of
+  studies of cognition for clinical applications such as surgical planning, for
+  monitoring treatment outcomes, and as a biomarker in pharmacologic and
+  training programs. Technical developments have solved most of the challenges
+  of applying fMRI in practice. These challenges include low contrast to noise
+  ratio of BOLD signals, image distortion, and signal dropout. More recently,
+  attention is turning to the use of pattern classification and other
+  statistical methods to draw increasingly complex inferences about cognitive
+  brain states from fMRI data. This paper reviews the methods, some of the
+  challenges and the future of fMRI.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.nec.2010.11.001.Overview
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1558-1349 (Electronic)$\backslash$r1042-3680 (Linking)}
+    \field{issn}{10423680}
+    \field{number}{2}
+    \field{pages}{133\bibrangedash 139}
+    \field{title}{{Overview of functional magnetic resonance imaging}}
+    \field{volume}{22}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Glover - 2011 - Overview of functional magnetic resona
+    \verb nce imaging.pdf:pdf
+    \endverb
+    \field{journaltitle}{Neurosurg Clin N Am}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Poldrack2011}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PT}{%
+         family={{Poldrack A, Russell; Mumford A, Jeanette; Nichols E}},
+         familyi={P\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PT1}
+    \strng{fullhash}{PT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1017/CBO9780511895029
+    \endverb
+    \field{isbn}{978-0-521-51766-9 Hardback}
+    \field{issn}{9780521517669 0521517664}
+    \field{title}{{Handbook of functional MRI data analysis}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Downloads/2011HandbookfMRI.pdf:pdf
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{Syed2015}{book}{}
+    \name{author}{3}{}{%
+      {{hash=SMA}{%
+         family={Syed},
+         familyi={S\bibinitperiod},
+         given={Mushabbar\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RSV}{%
+         family={Ramen},
+         familyi={R\bibinitperiod},
+         given={Subha\bibnamedelima V.},
+         giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=SOP}{%
+         family={Simonetti},
+         familyi={S\bibinitperiod},
+         given={Orlando\bibnamedelima P.},
+         giveni={O\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{angiography,magnetic resonance,mra,mri,non-contrast,venography}
+    \strng{namehash}{SMARSVSOP1}
+    \strng{fullhash}{SMARSVSOP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This book is a comprehensive and authoritative text on the expanding scope
+  of CMR, dedicated to covering basic principles in detail focusing on the
+  needs of cardiovascular imagers. The target audience for this book includes
+  CMR specialists, trainees in CMR and cardiovascular medicine, cardiovascular
+  physicists or clinical cardiovascular imagers. This book includes figures and
+  CMR examples in the form of high-resolution still images and is divided in
+  two sections: basic MRI physics, i.e. the nuts and bolts of MR imaging; and
+  imaging techniques (pulse sequences) used in cardiovascular MR imaging. Each
+  imaging technique is discussed in a separate chapter that includes the
+  physics and clinical applications (with cardiovascular examples) of a
+  particular technique. Evolving techniques or research based techniques are
+  discussed as well. This section covers both cardiac and vascular imaging.
+  ​Cardiovascular magnetic resonance (CMR) imaging is now considered a
+  clinically important imaging modality for patients with a wide variety of
+  cardiovascular diseases. Recent developments in scanner hardware, imaging
+  sequences, and analysis software have led to 3-dimensional, high-resolution
+  imaging of the cardiovascular system. These developments have also influenced
+  a wide variety of cardiovascular imaging applications and it is now routinely
+  used in clinical practice in CMR laboratories around the world. The
+  non-invasiveness and lack of ionizing radiation exposure make CMR uniquely
+  important for patients whose clinical condition requires serial imaging
+  follow-up. This is particularly true for patients with congenital heart
+  disease (CHD) with or without surgical corrections who require lifelong
+  clinical and imaging follow-up.%
+    }
+    \field{booktitle}{Basic Principles of Cardiovascular MRI: Physics and
+  Imaging Technique}
+    \verb{doi}
+    \verb 10.1007/978-3-319-22141-0
+    \endverb
+    \field{isbn}{978-3-319-22140-3}
+    \field{pages}{1\bibrangedash 338}
+    \field{title}{{Basic Principles of Cardiovascular MRI}}
+    \verb{url}
+    \verb http://link.springer.com/10.1007/978-3-319-22141-0
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Syed, Ramen, Simonetti - 2015 - Basic Principles of Ca
+    \verb rdiovascular MRI.pdf:pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{Khanna2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KN}{%
+         family={Khanna},
+         familyi={K\bibinitperiod},
+         given={Nishanth},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=AW}{%
+         family={Altmeyer},
+         familyi={A\bibinitperiod},
+         given={Wilson},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhuo},
+         familyi={Z\bibinitperiod},
+         given={Jiachen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Steven},
+         familyi={S\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{DTI,Diffusion,FMRI,Functional,Tensor}
+    \strng{namehash}{KN+1}
+    \strng{fullhash}{KNAWZJSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Functional imaging modalities, such as functional magnetic
+  resonance$\backslash$nimaging (fMRI) and diffusion tensor imaging (DTI), are
+  rapidly changing$\backslash$nthe scope and practice of neuroradiology. While
+  these modalities have$\backslash$nlong been used in research, they are
+  increasingly being used in clinical$\backslash$npractice to enable reliable
+  identification of eloquent cortex and white$\backslash$nmatter tracts in
+  order to guide treatment planning and to serve as a$\backslash$ndiagnostic
+  supplement when traditional imaging fails. An understanding$\backslash$nof
+  the scientific principles underlying fMRI and DTI is necessary
+  in$\backslash$ncurrent radiological practice. fMRI relies on a compensatory
+  hemodynamic$\backslash$nresponse seen in cortical activation and the
+  intrinsic discrepant$\backslash$nmagnetic properties of deoxy-and
+  oxyhemoglobin. Neuronal activity can be$\backslash$nindirectly visualized
+  based on a hemodynamic response, termed$\backslash$nneurovascular coupling.
+  fMRI demonstrates utility in identifying areas$\backslash$nof cortical
+  activation (i.e., task-based activation) and in discerning$\backslash$nareas
+  of neuronal connectivity when used during the resting
+  state,$\backslash$ntermed resting state fMRI. While fMRI is limited to
+  visualization of$\backslash$ngray matter, DTI permits visualization of white
+  matter tracts through$\backslash$ndiffusion restriction along different axes.
+  We will discuss the$\backslash$nphysical, statistical and physiological
+  principles underlying these$\backslash$nfunctional imaging modalities and
+  explore new promising clinical$\backslash$napplications.%
+    }
+    \verb{doi}
+    \verb 10.1177/1971400915576311
+    \endverb
+    \field{isbn}{2014011125}
+    \field{issn}{19714009}
+    \field{number}{2}
+    \field{pages}{87\bibrangedash 96}
+    \field{title}{{Functional neuroimaging: fundamental principles and clinical
+  applications}}
+    \verb{url}
+    \verb https://doi.org/10.1177/1971400915576311
+    \endverb
+    \field{volume}{28}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Khanna et al. - 2015 - Functional neuroimaging fundame
+    \verb ntal principles and clinical applications.pdf:pdf
+    \endverb
+    \field{journaltitle}{Neuroradiology Journal}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Lee2002}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LSP}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Sang\bibnamedelima Pil},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SAC}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Afonso\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KSG}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Seong\bibnamedelima Gi},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \keyw{Arterial spin labeling,BOLD,Forepaw stimulation,Functional brain
+  mapping,High field,High resolution,Rat brain}
+    \strng{namehash}{LSPSACKSG1}
+    \strng{fullhash}{LSPSACKSG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The quantification of blood oxygenation-level dependent (BOLD) functional
+  MRI (fMRI) signals is closely related to cerebral blood flow (CBF) change;
+  therefore, understanding the exact relationship between BOLD and CBF changes
+  on a pixel-by-pixel basis is fundamental. In this study, quantitative CBF
+  changes induced by neural activity were used to quantify BOLD signal changes
+  during somatosensory stimulation in alpha-chloralose-anesthetized rats. To
+  examine the influence of fast-moving vascular spins in quantifying CBF,
+  bipolar gradients were employed. Our data show no significant difference in
+  relative CBF changes obtained with and without bipolar gradients. To compare
+  BOLD and CBF signal changes induced by neural stimulation, a spin-echo (SE)
+  sequence with long SE time of 40 ms at 9.4 T was used in conjunction with an
+  arterial spin labeling technique. SE BOLD changes were quantitatively
+  correlated to CBF changes on a pixel-by-pixel and animal-by-animal basis.
+  Thus, SE BOLD-based fMRI at high magnetic fields allows a quantitative
+  comparison of functional brain activities across brain regions and subjects.%
+    }
+    \verb{doi}
+    \verb 10.1002/mrm.10117
+    \endverb
+    \field{isbn}{0740-3194 (Print)$\backslash$r0740-3194 (Linking)}
+    \field{issn}{07403194}
+    \field{number}{4}
+    \field{pages}{736\bibrangedash 741}
+    \field{title}{{Comparison of diffusion-weighted high-resolution CBF and
+  spin-echo BOLD fMRI at 9.4 T}}
+    \field{volume}{47}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Lee, Silva, Kim - 2002 - Comparison of diffusion-weigh
+    \verb ted high-resolution CBF and spin-echo BOLD fMRI at 9.4 T.pdf:pdf
+    \endverb
+    \field{journaltitle}{Magnetic Resonance in Medicine}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Dubois2016}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DJ}{%
+         family={Dubois},
+         familyi={D\bibinitperiod},
+         given={J},
+         giveni={J},
+      }}%
+      {{hash=AR}{%
+         family={Adolphs},
+         familyi={A\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+    }
+    \keyw{bold,bold fmri,brain imaging with blood,extensively,fmri has been
+  used,from the group to,individual differences,neurometrics,oxygen level
+  dependent,prediction,reliability,the individual,validity}
+    \strng{namehash}{DJAR1}
+    \strng{fullhash}{DJAR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.tics.2016.03.014.
+    \endverb
+    \verb{eprint}
+    \verb 15334406
+    \endverb
+    \field{pages}{425\bibrangedash 443}
+    \field{title}{{Building a science of individual differences from fMRI}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Civelek et al. - 2014 - Building a science of individu
+    \verb al differences from fMRI.pdf:pdf
+    \endverb
+    \field{journaltitle}{Trends in Cognitive Sciences}
+    \field{eprinttype}{arXiv}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Wood2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=WR}{%
+         family={Wood},
+         familyi={W\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=BK}{%
+         family={Bassett},
+         familyi={B\bibinitperiod},
+         given={K},
+         giveni={K},
+      }}%
+      {{hash=F}{%
+         family={Foerster},
+         familyi={F\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Spry},
+         familyi={S\bibinitperiod},
+         given={C},
+         giveni={C},
+      }}%
+      {{hash=TL}{%
+         family={Tong},
+         familyi={T\bibinitperiod},
+         given={L},
+         giveni={L},
+      }}%
+    }
+    \strng{namehash}{WR+1}
+    \strng{fullhash}{WRBKFSCTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Objective The purpose of this review is to evaluate the differences between
+  1.5 T MRI and 3.0 T MRI scanners. The research questions are: 1. What are the
+  clinical benefits, limitations, and safety considerations for imaging with a
+  1.5 T MRI scanner compared with a 3.0 T MRI scanner? 2. What are the service
+  delivery, personnel, and structural (renovation, installation) differences
+  between a 1.5 T MRI scanner and a 3.0 T MRI scanner?%
+    }
+    \field{isbn}{6132265392}
+    \field{issn}{1481-4501}
+    \field{number}{2}
+    \field{pages}{e2201}
+    \field{title}{{1.5 Tesla magnetic resonance imaging scanners compared with
+  3.0 Tesla magnetic resonance imaging scanners: systematic review of clinical
+  effectiveness}}
+    \verb{url}
+    \verb http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3442613{\&}
+    \verb tool=pmcentrez{\&}rendertype=abstract
+    \endverb
+    \field{volume}{2}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{CADTH Technology Overviews}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Salimi-Khorshidi2014}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SKG}{%
+         family={Salimi-Khorshidi},
+         familyi={S\bibinitperiod-K\bibinitperiod},
+         given={Gholamreza},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Douaud},
+         familyi={D\bibinitperiod},
+         given={Gwena{\"{e}}lle},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BCF}{%
+         family={Beckmann},
+         familyi={B\bibinitperiod},
+         given={Christian\bibnamedelima F.},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GMF}{%
+         family={Glasser},
+         familyi={G\bibinitperiod},
+         given={Matthew\bibnamedelima F.},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Griffanti},
+         familyi={G\bibinitperiod},
+         given={Ludovica},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SSM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Stephen\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \strng{namehash}{SKG+1}
+    \strng{fullhash}{SKGDGBCFGMFGLSSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Many sources of fluctuation contribute to the fMRI signal, and this makes
+  identifying the effects that are truly related to the underlying neuronal
+  activity difficult. Independent component analysis (ICA) - one of the most
+  widely used techniques for the exploratory analysis of fMRI data - has shown
+  to be a powerful technique in identifying various sources of
+  neuronally-related and artefactual fluctuation in fMRI data (both with the
+  application of external stimuli and with the subject "at rest"). ICA
+  decomposes fMRI data into patterns of activity (a set of spatial maps and
+  their corresponding time series) that are statistically independent and add
+  linearly to explain voxel-wise time series. Given the set of ICA components,
+  if the components representing "signal" (brain activity) can be distinguished
+  form the "noise" components (effects of motion, non-neuronal physiology,
+  scanner artefacts and other nuisance sources), the latter can then be removed
+  from the data, providing an effective cleanup of structured noise. Manual
+  classification of components is labour intensive and requires expertise;
+  hence, a fully automatic noise detection algorithm that can reliably detect
+  various types of noise sources (in both task and resting fMRI) is desirable.
+  In this paper, we introduce FIX ("FMRIB's ICA-based X-noiseifier"), which
+  provides an automatic solution for denoising fMRI data via accurate
+  classification of ICA components. For each ICA component FIX generates a
+  large number of distinct spatial and temporal features, each describing a
+  different aspect of the data (e.g., what proportion of temporal fluctuations
+  are at high frequencies). The set of features is then fed into a multi-level
+  classifier (built around several different classifiers). Once trained through
+  the hand-classification of a sufficient number of training datasets, the
+  classifier can then automatically classify new datasets. The noise components
+  can then be subtracted from (or regressed out of) the original data, to
+  provide automated cleanup. On conventional resting-state fMRI (rfMRI)
+  single-run datasets, FIX achieved about 95{\%} overall accuracy. On
+  high-quality rfMRI data from the Human Connectome Project, FIX achieves over
+  99{\%} classification accuracy, and as a result is being used in the default
+  rfMRI processing pipeline for generating HCP connectomes. FIX is publicly
+  available as a plugin for FSL. {\textcopyright} 2014.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2013.11.046
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1053-8119}
+    \field{issn}{10538119}
+    \field{pages}{449\bibrangedash 468}
+    \field{title}{{Automatic denoising of functional MRI data: Combining
+  independent component analysis and hierarchical fusion of classifiers}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.neuroimage.2013.11.046
+    \endverb
+    \field{volume}{90}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Salimi-Khorshidi et al. - 2014 - Automatic denoising o
+    \verb f functional MRI data Combining independent component analysis and hi
+    \verb erarchical fu.pdf:pdf
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{eprinttype}{arXiv}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Murphy2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MK}{%
+         family={Murphy},
+         familyi={M\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BRM}{%
+         family={Birn},
+         familyi={B\bibinitperiod},
+         given={Rasmus\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BPA}{%
+         family={Bandettini},
+         familyi={B\bibinitperiod},
+         given={Peter\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{correction,fmri,functional connectivity,functional magnetic resonance
+  imaging,noise,physiological noise,resting-state}
+    \strng{namehash}{MKBRMBPA1}
+    \strng{fullhash}{MKBRMBPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2013.04.001.Resting-state
+    \endverb
+    \field{pages}{349\bibrangedash 359}
+    \field{title}{{Resting state fMRI confounds and cleanup}}
+    \field{volume}{80}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Liu2006}{article}{}
+    \name{author}{9}{}{%
+      {{hash=LCSJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Chia Shang\bibnamedelima J},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Miki},
+         familyi={M\bibinitperiod},
+         given={Atsushi},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Hulvershorn},
+         familyi={H\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bloy},
+         familyi={B\bibinitperiod},
+         given={Luke},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GEE}{%
+         family={Gualtieri},
+         familyi={G\bibinitperiod},
+         given={Eugene\bibnamedelima E.},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LGT}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Grant\bibnamedelima T.},
+         giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=LJS}{%
+         family={Leigh},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HJC}{%
+         family={Haselgrove},
+         familyi={H\bibinitperiod},
+         given={John\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=EMA}{%
+         family={Elliott},
+         familyi={E\bibinitperiod},
+         given={Mark\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{BOLD,Physiologic mechanisms,fMRI}
+    \strng{namehash}{LCSJ+1}
+    \strng{fullhash}{LCSJMAHJBLGEELGTLJSHJCEMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Rationale and Objectives. Physiological noise in blood oxygen
+  level-dependent functional magnetic resonance imaging (BOLD fMRI) has been
+  shown to have characteristics similar to the BOLD signal itself, suggesting
+  that it may have a vascular dependence. In this study, we evaluated the
+  influence of physiological noise in fMRI as revealed by the differences in
+  vasculature sensitivity of gradient-echo echo-planar imaging (GE-EPI) and
+  spin-echo EPI (SE-EPI). Materials and Methods. The contribution of
+  physiological noise to the fMRI signal during activation of the visual cortex
+  was assessed by comparing its temporal characteristics with respect to echo
+  time (TE), using both GE-EPI and SE-EPI. The correlation of the noise in fMRI
+  with apparent diffusion coefficient (ADC) and the number of components
+  required to describe its variance, as determined by principal-component
+  analysis (PCA), were also assessed. Results. The SE-EPI data were less
+  affected by a TE-dependence of noise, in contrast to the apparent
+  physiological noise in GE-EPI. Voxel-wise analysis revealed that total
+  apparent noise increased as ADC values increased, and the relationship was
+  different for GE-EPI and SE-EPI. PCA revealed that while the number of
+  components characterizing the noise in SE-EPI data increased in a
+  TE-dependent manner, approaching that of white noise at long echo time, the
+  number of components from GE-EPI data was TE-independent. Conclusions. The
+  difference in sensitivities to physiological noise between SE-EPI and GE-EPI
+  suggests that extravascular BOLD processes around draining veins contribute
+  significantly to physiological noise in BOLD fMRI, and the suppression of
+  this noise component may enhance SE-EPI BOLD sensitivity at higher fields.
+  {\textcopyright} AUR, 2006.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.acra.2005.10.018
+    \endverb
+    \field{isbn}{1076-6332 (Print)$\backslash$r1076-6332 (Linking)}
+    \field{issn}{10766332}
+    \field{number}{3}
+    \field{pages}{313\bibrangedash 323}
+    \field{title}{{Spatial and temporal characteristics of physiological noise
+  in fMRI at 3T}}
+    \field{volume}{13}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{Academic Radiology}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Iraji2016}{article}{}
+    \name{author}{8}{}{%
+      {{hash=IA}{%
+         family={Iraji},
+         familyi={I\bibinitperiod},
+         given={Armin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CVD}{%
+         family={Calhoun},
+         familyi={C\bibinitperiod},
+         given={Vince\bibnamedelima D},
+         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WNM}{%
+         family={Wiseman},
+         familyi={W\bibinitperiod},
+         given={Natalie\bibnamedelima M},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DbE}{%
+         family={Davoodi-bojd},
+         familyi={D\bibinitperiod-b\bibinitperiod},
+         given={Esmaeil},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AMRN}{%
+         family={Avanaki},
+         familyi={A\bibinitperiod},
+         given={Mohammad R\bibnamedelima N},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+      }}%
+      {{hash=HEM}{%
+         family={Haacke},
+         familyi={H\bibinitperiod},
+         given={E\bibnamedelima Mark},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KZ}{%
+         family={Kou},
+         familyi={K\bibinitperiod},
+         given={Zhifeng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=NB}{%
+         family={Neurosciences},
+         familyi={N\bibinitperiod},
+         given={Behavioral},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IA+1}
+    \strng{fullhash}{IACVDWNMDbEAMRNHEMKZNB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2016.04.006.The
+    \endverb
+    \field{pages}{494\bibrangedash 507}
+    \field{title}{{The connectivity domain: Analyzing resting state fMRI data
+  using feature-based data-driven and model-based methods}}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Monti2011}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Monti},
+         familyi={M\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{autocorrelation,blood oxygenation level-dependent,fixed
+  effects,functional magnetic resonance imaging,functional magnetic resonance
+  imaging, blood oxyge,general linear model,least squares,mixed
+  effects,multicollinearity,ordinary}
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Functional magnetic resonance imaging (fMRI) is one of the most widely used
+  tools to study the neural underpinnings of human cognition. Standard analysis
+  of fMRI data relies on a general linear model (GLM) approach to separate
+  stimulus induced signals from noise. Crucially, this approach relies on a
+  number of assumptions about the data which, for inferences to be valid, must
+  be met. The current paper reviews the GLM approach to analysis of fMRI
+  time-series, focusing in particular on the degree to which such data abides
+  by the assumptions of the GLM framework, and on the methods that have been
+  developed to correct for any violation of those assumptions. Rather than
+  biasing estimates of effect size, the major consequence of non-conformity to
+  the assumptions is to introduce bias into estimates of the variance, thus
+  affecting test statistics, power, and false positive rates. Furthermore, this
+  bias can have pervasive effects on both individual subject and group-level
+  statistics, potentially yielding qualitatively different results across
+  replications, especially after the thresholding procedures commonly used for
+  inference-making.%
+    }
+    \verb{doi}
+    \verb 10.3389/fnhum.2011.00028
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1702.00111v2
+    \endverb
+    \field{isbn}{1662-5161 (Electronic)$\backslash$r1662-5161 (Linking)}
+    \field{issn}{16625161}
+    \field{number}{March}
+    \field{pages}{1\bibrangedash 13}
+    \field{title}{{Statistical Analysis of fMRI Time-Series: A Critical Review
+  of the GLM Approach}}
+    \verb{url}
+    \verb http://journal.frontiersin.org/article/10.3389/fnhum.2011.00028/abstr
+    \verb act
+    \endverb
+    \field{volume}{5}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Monti - 2011 - Statistical Analysis of fMRI Time-Serie
+    \verb s A Critical Review of the GLM Approach(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Human Neuroscience}
+    \field{eprinttype}{arXiv}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Mckeown1998}{article}{}
+    \name{author}{7}{}{%
+      {{hash=MMJ}{%
+         family={Mckeown},
+         familyi={M\bibinitperiod},
+         given={Martin\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Makeig},
+         familyi={M\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BGG}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Greg\bibnamedelima G},
+         giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=JTp}{%
+         family={Jung},
+         familyi={J\bibinitperiod},
+         given={Tzyy-ping},
+         giveni={T\bibinitperiod-p\bibinitperiod},
+      }}%
+      {{hash=KSS}{%
+         family={Kindermann},
+         familyi={K\bibinitperiod},
+         given={Sandra\bibnamedelima S},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BAJ}{%
+         family={Bell},
+         familyi={B\bibinitperiod},
+         given={Anthony\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=STJ}{%
+         family={Sejnowski},
+         familyi={S\bibinitperiod},
+         given={Terrence\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{functional magnetic resonance imaging,higher-order
+  statistics,independent component analysis}
+    \strng{namehash}{MMJ+1}
+    \strng{fullhash}{MMJMSBGGJTpKSSBAJSTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{1932064184}
+    \field{number}{June 1997}
+    \field{pages}{160\bibrangedash 188}
+    \field{title}{{Analysis of fMRI Data by Blind Separation Into Independent
+  Spatial Components}}
+    \field{volume}{188}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{year}{1998}
+  \endentry
+
+  \entry{Calhoun2001a}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CVD}{%
+         family={Calhoun},
+         familyi={C\bibinitperiod},
+         given={V.\bibnamedelima D.},
+         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Adali},
+         familyi={A\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MVB}{%
+         family={McGinty},
+         familyi={M\bibinitperiod},
+         given={V.\bibnamedelima B.},
+         giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PJJ}{%
+         family={Pekar},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WTD}{%
+         family={Watson},
+         familyi={W\bibinitperiod},
+         given={T.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PGD}{%
+         family={Pearlson},
+         familyi={P\bibinitperiod},
+         given={G.\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \keyw{Brain,FMRI,Functional,Independent component analysis,Visual
+  perception}
+    \strng{namehash}{CVD+1}
+    \strng{fullhash}{CVDATMVBPJJWTDPGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The Motor-Free Visual Perception Test, revised (MVPT-R), provides a measure
+  of visual perceptual processing. It involves different cognitive elements
+  including visual discrimination, spatial relationships, and mental rotation.
+  We adapted the MVPT-R to an event-related functional MRI (fMRI) environment
+  to investigate the brain regions involved in the interrelation of these
+  cognitive elements. Two complementary analysis methods were employed to
+  characterize the fMRI data: (a) a general linear model SPM approach based
+  upon a model of the time course and a hemodynamic response estimate and (b)
+  independent component analysis (ICA), which does not constrain the specific
+  shape of the time course per se, although we did require it to be at least
+  transiently task-related. Additionally, we implemented ICA in a novel way to
+  create a group average that was compared with the SPM group results. Both
+  methods yielded similar, but not identical, results and detected a network of
+  robustly activated visual, inferior parietal, and frontal eye-field areas as
+  well as thalamus and cerebellum. SPM appeared to be the more sensitive method
+  and has a well-developed theoretical approach to thresholding. The ICA method
+  segregated functional elements into separate maps and identified additional
+  regions with extended activation in response to presented events. The results
+  demonstrate the utility of complementary analyses for fMRI data and suggest
+  that the cerebellum may play a significant role in visual perceptual
+  processing. Additionally, results illustrate functional connectivity between
+  frontal eye fields and prefrontal and parietal regions. {\textcopyright} 2001
+  Academic Press.%
+    }
+    \verb{doi}
+    \verb 10.1006/nimg.2001.0921
+    \endverb
+    \field{isbn}{1053-8119 (Print)$\backslash$r1053-8119 (Linking)}
+    \field{issn}{10538119}
+    \field{number}{5}
+    \field{pages}{1080\bibrangedash 1088}
+    \field{title}{{fMRI activation in a visual-perception task: Network of
+  areas detected using the general linear model and independent components
+  analysis}}
+    \field{volume}{14}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Deslauriers2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DJ}{%
+         family={Deslauriers},
+         familyi={D\bibinitperiod},
+         given={Johnathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Ansado},
+         familyi={A\bibinitperiod},
+         given={Jennyfer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Marrelec},
+         familyi={M\bibinitperiod},
+         given={Guillaume},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PJS}{%
+         family={Provost},
+         familyi={P\bibinitperiod},
+         given={Jean\bibnamedelima S{\'{e}}bastien},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Joanette},
+         familyi={J\bibinitperiod},
+         given={Yves},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \keyw{Aging,Functional connectivity,Ventral Attention Network,Visual
+  selective attention}
+    \strng{namehash}{DJ+2}
+    \strng{fullhash}{DJAJMGPJSJY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Multiple studies have found neurofunctional changes in normal aging in a
+  context of selective attention. Furthermore, many articles report
+  intrahemispheric alteration in functional networks. However, little is known
+  about age-related changes within the Ventral Attention Network (VAN), which
+  underlies selective attention. The aim of this study is to examine
+  age-related changes within the VAN, focusing on connectivity between its
+  regions. Here we report our findings on the analysis of 27 participants' (13
+  younger and 14 older healthy adults) BOLD signals as well as their
+  performance on a letter-matching task. We identified the VAN independently
+  for both groups using spatial independent component analysis. Three main
+  findings emerged: First, younger adults were faster and more accurate on the
+  task. Second, older adults had greater connectivity among posterior regions
+  (right temporoparietal junction, right superior parietal lobule, right middle
+  temporal gyrus and left cerebellum crus I) than younger adults but lower
+  connectivity among anterior regions (right anterior insula, right medial
+  superior frontal gyrus and right middle frontal gyrus). Older adults also had
+  more connectivity between anterior and posterior regions than younger adults.
+  Finally, correlations between connectivity and response time on the task
+  showed a trend toward connectivity in posterior regions for the older group
+  and in anterior regions for the younger group. Thus, this study shows that
+  intrahemispheric neurofunctional changes in aging also affect the VAN. The
+  results suggest that, in contexts of selective attention, posterior regions
+  increased in importance for older adults, while anterior regions had reduced
+  centrality.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.brainres.2016.12.017
+    \endverb
+    \field{issn}{18726240}
+    \field{pages}{288\bibrangedash 296}
+    \field{title}{{Increase of posterior connectivity in aging within the
+  Ventral Attention Network: A functional connectivity analysis using
+  independent component analysis}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.brainres.2016.12.017
+    \endverb
+    \field{volume}{1657}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{Brain Research}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Parkes2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PL}{%
+         family={Parkes},
+         familyi={P\bibinitperiod},
+         given={Linden},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FB}{%
+         family={Fulcher},
+         familyi={F\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=YM}{%
+         family={Y{\"{u}}cel},
+         familyi={Y\bibinitperiod},
+         given={Murat},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fornito},
+         familyi={F\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \keyw{Artefact,Functional connectivity,Motion,Noise,Resting-state,fMRI}
+    \strng{namehash}{PL+1}
+    \strng{fullhash}{PLFBYMFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Estimates of functional connectivity derived from resting-state functional
+  magnetic resonance imaging (rs-fMRI) are sensitive to artefacts caused by
+  in-scanner head motion. This susceptibility has motivated the development of
+  numerous denoising methods designed to mitigate motion-related artefacts.
+  Here, we compare popular retrospective rs-fMRI denoising methods, such as
+  regression of head motion parameters and mean white matter (WM) and
+  cerebrospinal fluid (CSF) (with and without expansion terms), aCompCor,
+  volume censoring (e.g., scrubbing and spike regression), global signal
+  regression and ICA-AROMA, combined into 19 different pipelines. These
+  pipelines were evaluated across five different quality control benchmarks in
+  four independent datasets associated with varying levels of motion. Pipelines
+  were benchmarked by examining the residual relationship between in-scanner
+  movement and functional connectivity after denoising; the effect of distance
+  on this residual relationship; whole-brain differences in functional
+  connectivity between high- and low-motion healthy controls (HC); the temporal
+  degrees of freedom lost during denoising; and the test-retest reliability of
+  functional connectivity estimates. We also compared the sensitivity of each
+  pipeline to clinical differences in functional connectivity in independent
+  samples of people with schizophrenia and obsessive-compulsive disorder. Our
+  results indicate that (1) simple linear regression of regional fMRI time
+  series against head motion parameters and WM/CSF signals (with or without
+  expansion terms) is not sufficient to remove head motion artefacts; (2)
+  aCompCor pipelines may only be viable in low-motion data; (3) volume
+  censoring performs well at minimising motion-related artefact but a major
+  benefit of this approach derives from the exclusion of high-motion
+  individuals; (4) while not as effective as volume censoring, ICA-AROMA
+  performed well across our benchmarks for relatively low cost in terms of data
+  loss; (5) the addition of global signal regression improved the performance
+  of nearly all pipelines on most benchmarks, but exacerbated the
+  distance-dependence of correlations between motion and functional
+  connectivity; and (6) group comparisons in functional connectivity between
+  healthy controls and schizophrenia patients are highly dependent on
+  preprocessing strategy. We offer some recommendations for best practice and
+  outline simple analyses to facilitate transparent reporting of the degree to
+  which a given set of findings may be affected by motion-related artefact.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2017.12.073
+    \endverb
+    \field{isbn}{1053-8119}
+    \field{issn}{10959572}
+    \field{number}{July 2017}
+    \field{pages}{415\bibrangedash 436}
+    \field{title}{{An evaluation of the efficacy, reliability, and sensitivity
+  of motion correction strategies for resting-state functional MRI}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.neuroimage.2017.12.073
+    \endverb
+    \field{volume}{171}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Du2018}{article}{}
+    \name{author}{10}{}{%
+      {{hash=DY}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Yuhui},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=FSL}{%
+         family={Fryer},
+         familyi={F\bibinitperiod},
+         given={Susanna\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Dongdong},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sui},
+         familyi={S\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=YQ}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Qingbao},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jiayu},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Stuart},
+         familyi={S\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LRL}{%
+         family={Loewy},
+         familyi={L\bibinitperiod},
+         given={Rachel\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CVD}{%
+         family={Calhoun},
+         familyi={C\bibinitperiod},
+         given={Vince\bibnamedelima D.},
+         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MDH}{%
+         family={Mathalon},
+         familyi={M\bibinitperiod},
+         given={Daniel\bibnamedelima H.},
+         giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{Brain intrinsic functional networks,Functional magnetic resonance
+  imaging,Independent component analysis,Psychosis-risk
+  syndrome,Resting-state,Schizophrenia}
+    \strng{namehash}{DY+1}
+    \strng{fullhash}{DYFSLLDSJYQCJSBLRLCVDMDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Although individuals at clinical high risk (CHR) for psychosis exhibit a
+  psychosis-risk syndrome involving attenuated forms of the positive symptoms
+  typical of schizophrenia (SZ), it remains unclear whether their resting-state
+  brain intrinsic functional networks (INs) show attenuated or qualitatively
+  distinct patterns of functional dysconnectivity relative to SZ patients.
+  Based on resting-state functional magnetic imaging data from 70 healthy
+  controls (HCs), 53 CHR individuals (among which 41 subjects were
+  antipsychotic medication-naive), and 58 early illness SZ (ESZ) patients
+  (among which 53 patients took antipsychotic medication) within five years of
+  illness onset, we estimated subject-specific INs using a novel group
+  information guided independent component analysis (GIG-ICA) and investigated
+  group differences in INs. We found that when compared to HCs, both CHR and
+  ESZ groups showed significant differences, primarily in default mode,
+  salience, auditory-related, visuospatial, sensory-motor, and parietal INs.
+  Our findings suggest that widespread INs were diversely impacted. More than
+  25{\%} of voxels in the identified significant discriminative regions
+  (obtained using all 19 possible changing patterns excepting the no-difference
+  pattern) from six of the 15 interrogated INs exhibited monotonically
+  decreasing Z-scores (in INs) from the HC to CHR to ESZ, and the related
+  regions included the left lingual gyrus of two vision-related networks, the
+  right postcentral cortex of the visuospatial network, the left thalamus
+  region of the salience network, the left calcarine region of the
+  fronto-occipital network and fronto-parieto-occipital network. Compared to
+  HCs and CHR individuals, ESZ patients showed both increasing and decreasing
+  connectivity, mainly hypo-connectivity involving 15{\%} of the altered voxels
+  from four INs. The left supplementary motor area from the sensory-motor
+  network and the right inferior occipital gyrus in the vision-related network
+  showed a common abnormality in CHR and ESZ groups. Some brain regions also
+  showed a CHR-unique alteration (primarily the CHR-increasing connectivity).
+  In summary, CHR individuals generally showed intermediate connectivity
+  between HCs and ESZ patients across multiple INs, suggesting that some
+  dysconnectivity patterns evident in ESZ predate psychosis in attenuated form
+  during the psychosis risk stage. Hence, these connectivity measures may serve
+  as possible biomarkers to predict schizophrenia progression.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.nicl.2017.10.018
+    \endverb
+    \field{isbn}{0002-9610 (Print)$\backslash$r0002-9610 (Linking)}
+    \field{issn}{22131582}
+    \field{number}{May}
+    \field{pages}{335\bibrangedash 346}
+    \field{title}{{Identifying functional network changing patterns in
+  individuals at clinical high-risk for psychosis and patients with early
+  illness schizophrenia: A group ICA study}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.nicl.2017.10.018
+    \endverb
+    \field{volume}{17}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{NeuroImage: Clinical}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Tohka2008}{article}{}
+    \name{author}{6}{}{%
+      {{hash=TJ}{%
+         family={Tohka},
+         familyi={T\bibinitperiod},
+         given={Jussi},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FK}{%
+         family={Foerde},
+         familyi={F\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=AAR}{%
+         family={Aron},
+         familyi={A\bibinitperiod},
+         given={Adam\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=TSM}{%
+         family={Tom},
+         familyi={T\bibinitperiod},
+         given={Sabrina\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TAW}{%
+         family={Toga},
+         familyi={T\bibinitperiod},
+         given={Arthur\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=PRA}{%
+         family={Poldrack},
+         familyi={P\bibinitperiod},
+         given={Russell\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Classification,Denoising,Global decision tree,Group-level
+  analyses,ICA}
+    \strng{namehash}{TJ+1}
+    \strng{fullhash}{TJFKAARTSMTAWPRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Blood oxygenation level dependent (BOLD) signals in functional magnetic
+  resonance imaging (fMRI) are often small compared to the level of noise in
+  the data. The sources of noise are numerous including different kinds of
+  motion artifacts and physiological noise with complex patterns. This
+  complicates the statistical analysis of the fMRI data. In this study, we
+  propose an automatic method to reduce fMRI artifacts based on independent
+  component analysis (ICA). We trained a supervised classifier to distinguish
+  between independent components relating to a potentially task-related signal
+  and independent components clearly relating to structured noise. After the
+  components had been classified as either signal or noise, a denoised fMR
+  time-series was reconstructed based only on the independent components
+  classified as potentially task-related. The classifier was a novel global
+  (fixed structure) decision tree trained in a Neyman-Pearson (NP) framework,
+  which allowed the shape of the decision regions to be controlled effectively.
+  Additionally, the conservativeness of the classifier could be tuned by
+  modifying the NP threshold. The classifier was tested against the component
+  classifications by an expert with the data from a category learning task. The
+  test set as well as the expert were different from the data used for
+  classifier training and the expert labeling the training set. The
+  misclassification rate was between 0.2 and 0.3 for both the event-related and
+  blocked designs and it was consistent among variety of different NP
+  thresholds. The effects of denoising on the group-level statistical analyses
+  were as expected: The denoising generally decreased Z-scores in the white
+  matter, where extreme Z-values can be expected to reflect artifacts. A
+  similar but weaker decrease in Z-scores was observed in the gray matter on
+  average. These two observations suggest that denoising was likely to reduce
+  artifacts from gray matter and could be useful to improve the detection of
+  activations. We conclude that automatic ICA-based denoising offers a
+  potentially useful approach to improve the quality of fMRI data and
+  consequently increase the accuracy of the statistical analysis of these data.
+  {\textcopyright} 2007 Elsevier Inc. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2007.10.013
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1053-8119 (Print)$\backslash$r1053-8119 (Linking)}
+    \field{issn}{10538119}
+    \field{number}{3}
+    \field{pages}{1227\bibrangedash 1245}
+    \field{title}{{Automatic independent component labeling for artifact
+  removal in fMRI}}
+    \field{volume}{39}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{eprinttype}{arXiv}
+    \field{year}{2008}
+  \endentry
+
+  \entry{FMRIB2016}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=ROCfFM}{%
+         family={Resonance},
+         familyi={R\bibinitperiod},
+         given={Oxford Centre for Functional\bibnamedelima Magnetic},
+         giveni={O\bibinitperiod\bibinitdelim C\bibinitperiod f\bibinitperiod
+  F\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FIotB}{%
+         family={(FMRIB);},
+         familyi={F\bibinitperiod},
+         given={Imaging of the\bibnamedelima Brain},
+         giveni={I\bibinitperiod\bibinitdelim o\bibinitperiod
+  t\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ROCfFMFIotB1}
+    \strng{fullhash}{ROCfFMFIotB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{MELODIC/FAQ}}
+    \verb{url}
+    \verb https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/MELODIC/FAQ{\#}How{\_}does{\_}
+    \verb MELODIC{\_}calculate{\_}the{\_}number{\_}of{\_}Independent{\_}Compone
+    \verb nts{\_}.28ICs.29.3F
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{Griffanti2017}{article}{}
+    \name{author}{12}{}{%
+      {{hash=GL}{%
+         family={Griffanti},
+         familyi={G\bibinitperiod},
+         given={Ludovica},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Douaud},
+         familyi={D\bibinitperiod},
+         given={Gwena{\"{e}}lle},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bijsterbosch},
+         familyi={B\bibinitperiod},
+         given={Janine},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ES}{%
+         family={Evangelisti},
+         familyi={E\bibinitperiod},
+         given={Stefania},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AAF}{%
+         family={Alfaro-Almagro},
+         familyi={A\bibinitperiod-A\bibinitperiod},
+         given={Fidel},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GMF}{%
+         family={Glasser},
+         familyi={G\bibinitperiod},
+         given={Matthew\bibnamedelima F.},
+         giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=DEP}{%
+         family={Duff},
+         familyi={D\bibinitperiod},
+         given={Eugene\bibnamedelima P.},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fitzgibbon},
+         familyi={F\bibinitperiod},
+         given={Sean},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Westphal},
+         familyi={W\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Carone},
+         familyi={C\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BCF}{%
+         family={Beckmann},
+         familyi={B\bibinitperiod},
+         given={Christian\bibnamedelima F.},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SSM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Stephen\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GL+1}
+    \strng{fullhash}{GLDGBJESAAFGMFDEPFSWRCDBCFSSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present a practical “how-to” guide to help determine whether
+  single-subject fMRI independent components (ICs) characterise structured
+  noise or not. Manual identification of signal and noise after ICA
+  decomposition is required for efficient data denoising: to train supervised
+  algorithms, to check the results of unsupervised ones or to manually clean
+  the data. In this paper we describe the main spatial and temporal features of
+  ICs and provide general guidelines on how to evaluate these. Examples of
+  signal and noise components are provided from a wide range of datasets (3T
+  data, including examples from the UK Biobank and the Human Connectome
+  Project, and 7T data), together with practical guidelines for their
+  identification. Finally, we discuss how the data quality, data type and
+  preprocessing can influence the characteristics of the ICs and present
+  examples of particularly challenging datasets.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2016.12.036
+    \endverb
+    \field{isbn}{1095-9572; 1053-8119}
+    \field{issn}{10959572}
+    \field{number}{June 2016}
+    \field{pages}{188\bibrangedash 205}
+    \field{title}{{Hand classification of fMRI ICA noise components}}
+    \field{volume}{154}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Griffanti et al. - 2017 - Hand classification of fMRI
+    \verb ICA noise components.pdf:pdf
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Smith2002}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SSM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Stephen\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Brain segmentation,Cortical surface modeling}
+    \strng{namehash}{SSM1}
+    \strng{fullhash}{SSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    An automated method for segmenting magnetic resonance head images into
+  brain and non-brain has been developed. It is very robust and accurate and
+  has been tested on thousands of data sets from a wide variety of scanners and
+  taken with a wide variety of MR sequences. The method, Brain Extraction Tool
+  (BET), uses a deformable model that evolves to fit the brain's surface by the
+  application of a set of locally adaptive model forces. The method is very
+  fast and requires no preregistration or other pre-processing before being
+  applied. We describe the new method and give examples of results and the
+  results of extensive quantitative testing against "gold-standard" hand
+  segmentations, and two other popular automated methods.%
+    }
+    \verb{doi}
+    \verb 10.1002/hbm.10062
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1065-9471 (Print) 1065-9471 (Linking)}
+    \field{issn}{10659471}
+    \field{number}{3}
+    \field{pages}{143\bibrangedash 155}
+    \field{title}{{Fast robust automated brain extraction}}
+    \field{volume}{17}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/Smith-2002-Human{\_}Brain{\_}Mapp
+    \verb ing.pdf:pdf
+    \endverb
+    \field{journaltitle}{Human Brain Mapping}
+    \field{eprinttype}{arXiv}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Hajnal2001}{book}{}
+    \name{author}{3}{}{%
+      {{hash=HJV}{%
+         family={Hajnal},
+         familyi={H\bibinitperiod},
+         given={Joseph\bibnamedelima V.},
+         giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=HDL}{%
+         family={Hill},
+         familyi={H\bibinitperiod},
+         given={Derek\bibnamedelima L.G.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HDJ}{%
+         family={Hawkes},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The BIOMEDICAL ENGINEERING Series}%
+    }
+    \strng{namehash}{HJVHDLHDJ1}
+    \strng{fullhash}{HJVHDLHDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Animal Genetics}
+    \field{edition}{Mecheal R.}
+    \field{isbn}{9781420042474}
+    \field{number}{5}
+    \field{pages}{394}
+    \field{title}{{Medical Image Registration}}
+    \field{volume}{39}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/bog.pdf:pdf
+    \endverb
+    \field{year}{2001}
+  \endentry
+
+  \entry{Jenkinson2001}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JM}{%
+         family={Jenkinson},
+         familyi={J\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Affine transformation,Global optimisation,Multi-resolution
+  search,Multimodal registration,Robustness}
+    \strng{namehash}{JMSS1}
+    \strng{fullhash}{JMSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Registration is an important component of medical image analysis and for
+  analysing large amounts of data it is desirable to have fully automatic
+  registration methods. Many different automatic registration methods have been
+  proposed to date, and almost all share a common mathematical framework - one
+  of optimising a cost function. To date little attention has been focused on
+  the optimisation method itself, even though the success of most registration
+  methods hinges on the quality of this optimisation. This paper examines the
+  assumptions underlying the problem of registration for brain images using
+  inter-modal voxel similarity measures. It is demonstrated that the use of
+  local optimisation methods together with the standard multi-resolution
+  approach is not sufficient to reliably find the global minimum. To address
+  this problem, a global optimisation method is proposed that is specifically
+  tailored to this form of registration. A full discussion of all the necessary
+  implementation details is included as this is an important part of any
+  practical method. Furthermore, results are presented for inter-modal,
+  inter-subject registration experiments that show that the proposed method is
+  more reliable at finding the global minimum than several of the currently
+  available registration packages in common usage. {\textcopyright} 2001
+  Elsevier Science B.V. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/S1361-8415(01)00036-6
+    \endverb
+    \field{isbn}{1441865222739}
+    \field{issn}{13618415}
+    \field{number}{2}
+    \field{pages}{143\bibrangedash 156}
+    \field{title}{{A global optimisation method for robust affine registration
+  of brain images}}
+    \field{volume}{5}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/to.pdf:pdf
+    \endverb
+    \field{journaltitle}{Medical Image Analysis}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Andersson2007}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AJ}{%
+         family={Andersson},
+         familyi={A\bibinitperiod},
+         given={JLR},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JM}{%
+         family={Jenkinson},
+         familyi={J\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=SS}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \strng{namehash}{AJJMSS1}
+    \strng{fullhash}{AJJMSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{June}
+    \field{title}{{Non-linear registration aka Spatial normalization. FMRIB
+  Tech Rep TR07JA2.}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/et.pdf:pdf
+    \endverb
+    \field{year}{2007}
+  \endentry
+
+  \entry{Moayedi2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MM}{%
+         family={Moayedi},
+         familyi={M\bibinitperiod},
+         given={Massieh},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=STV}{%
+         family={Salomons},
+         familyi={S\bibinitperiod},
+         given={Tim\bibnamedelima V.},
+         giveni={T\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=ALY}{%
+         family={Atlas},
+         familyi={A\bibinitperiod},
+         given={Lauren\bibnamedelima Y.},
+         giveni={L\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc.}%
+    }
+    \keyw{Pain,functional connectivity,functional magnetic resonance
+  imaging,guidelines,magnetic resonance imaging,multivoxel pattern
+  analysis,structural magnetic resonance imaging}
+    \strng{namehash}{MMSTVALY1}
+    \strng{fullhash}{MMSTVALY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Human pain neuroimaging has exploded in the past 2 decades. During this
+  time, the broader neuroimaging community has continued to investigate and
+  refine methods. Another key to progress is exchange with clinicians and pain
+  scientists working with other model systems and approaches. These
+  collaborative efforts require that non-imagers be able to evaluate and assess
+  the evidence provided in these reports. Likewise, new trainees must design
+  rigorous and reliable pain imaging experiments. In this article we provide a
+  guideline for designing, reading, evaluating, analyzing, and reporting
+  results of a pain neuroimaging experiment, with a focus on functional and
+  structural magnetic resonance imaging. We focus in particular on
+  considerations that are unique to neuroimaging studies of pain in humans,
+  including study design and analysis, inferences that can be drawn from these
+  studies, and the strengths and limitations of the approach. Perspective: This
+  article provides an overview of the concepts and considerations of structural
+  and functional magnetic resonance neuroimaging studies. The primer is written
+  for those who are not familiar with brain imaging. We review key concepts
+  related to recruitment and study sample, experimental design, data analysis
+  and data interpretation.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.jpain.2018.03.011
+    \endverb
+    \field{issn}{15288447}
+    \field{number}{9}
+    \field{pages}{961.e1\bibrangedash 961.e21}
+    \field{title}{{Pain Neuroimaging in Humans: A Primer for Beginners and
+  Non-Imagers}}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.jpain.2018.03.011
+    \endverb
+    \field{volume}{19}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Moayedi, Salomons, Atlas - 2018 - Pain Neuroimaging in
+    \verb  Humans A Primer for Beginners and Non-Imagers.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Pain}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Jenkinson2002}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JM}{%
+         family={Jenkinson},
+         familyi={J\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bannister},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Brady},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Accuracy,Affine transformation,Global optimization,Motion
+  correction,Multimodal registration,Multiresolution search,Robustness}
+    \strng{namehash}{JM+1}
+    \strng{fullhash}{JMBPBMSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Linear registration and motion correction are important components of
+  structural and functional brain image analysis. Most modern methods optimize
+  some intensity-based cost function to determine the best registration. To
+  date, little attention has been focused on the optimization method itself,
+  even though the success of most registration methods hinges on the quality of
+  this optimization. This paper examines the optimization process in detail and
+  demonstrates that the commonly used multiresolution local optimization
+  methods can, and do, get trapped in local minima. To address this problem,
+  two approaches are taken: (1) to apodize the cost function and (2) to employ
+  a novel hybrid global-local optimization method. This new optimization method
+  is specifically designed for registering whole brain images. It substantially
+  reduces the likelihood of producing misregistrations due to being trapped by
+  local minima. The increased robustness of the method, compared to other
+  commonly used methods, is demonstrated by a consistency test. In addition,
+  the accuracy of the registration is demonstrated by a series of experiments
+  with motion correction. These motion correction experiments also investigate
+  how the results are affected by different cost functions and interpolation
+  methods. {\textcopyright} 2002 Elsevier Science (USA).%
+    }
+    \verb{doi}
+    \verb 10.1016/S1053-8119(02)91132-8
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{1053-8119 (Print) 1053-8119 (Linking)}
+    \field{issn}{10538119}
+    \field{number}{2}
+    \field{pages}{825\bibrangedash 841}
+    \field{title}{{Improved optimization for the robust and accurate linear
+  registration and motion correction of brain images}}
+    \field{volume}{17}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Jenkinson et al. - 2002 - Improved optimization for th
+    \verb e robust and accurate linear registration and motion correction of br
+    \verb ain images.pdf:pdf
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{eprinttype}{arXiv}
+    \field{year}{2002}
+  \endentry
+
+  \entry{FMRIB2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={FMRIB},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{FEATUserGuide}}
+    \verb{url}
+    \verb https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FEAT/UserGuide
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Smith1997}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SSM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Stephen\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Brady},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima Michael},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SSMBJM1}
+    \strng{fullhash}{SSMBJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This paper describes a new approach to low level image processing; in
+  particular, edge and corner detection and structure preserving noise
+  reduction. Non-linear filtering is used to define which parts of the image
+  are closely related to each individual pixel; each pixel has associated with
+  it a local image region which is of similar brightness to that pixel. The new
+  feature detectors are based on the minimization of this local image region,
+  and the noise reduction method uses this region as the smoothing
+  neighbourhood. The resulting methods are accurate, noise resistant and fast.
+  Details of the new feature detectors and of the new noise reduction method
+  are described, along with test results.%
+    }
+    \verb{doi}
+    \verb 10.1023/A:1007963824710
+    \endverb
+    \field{isbn}{0920-5691}
+    \field{issn}{09205691}
+    \field{number}{1}
+    \field{pages}{45\bibrangedash 78}
+    \field{title}{{SUSAN - A new approach to low level image processing}}
+    \field{volume}{23}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/Smith-Brady1997{\_}Article{\_}SUS
+    \verb ANANewApproachToLowLevelIma.pdf:pdf
+    \endverb
+    \field{journaltitle}{International Journal of Computer Vision}
+    \field{year}{1997}
+  \endentry
+
+  \entry{Beckmann2004}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BCF}{%
+         family={Beckmann},
+         familyi={B\bibinitperiod},
+         given={Christian\bibnamedelima F.},
+         giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SSM}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Stephen\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Factor analysis,Functional magnetic resonance imaging,Independent
+  component analysis,Linear structural model,Mixture modeling}
+    \strng{namehash}{BCFSSM1}
+    \strng{fullhash}{BCFSSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present an integrated approach to probabilistic independent component
+  analysis (ICA) for functional MRI (FMRI) data that allows for nonsquare
+  mixing in the presence of Gaussian noise. In order to avoid overfitting, we
+  employ objective estimation of the amount of Gaussian noise through Bayesian
+  analysis of the true dimensionality of the data, i.e., the number of
+  activation and non-Gaussian noise sources. This enables us to carry out
+  probabilistic modeling and achieves an asymptotically unique decomposition of
+  the data. It reduces problems of interpretation, as each final independent
+  component is now much more likely to be due to only one physical or
+  physiological process. We also describe other improvements to standard ICA,
+  such as temporal prewhitening and variance normalization of timeseries, the
+  latter being particularly useful in the context of dimensionality reduction
+  when weak activation is present. We discuss the use of prior information
+  about the spatiotemporal nature of the source processes, and an
+  alternative-hypothesis testing approach for inference, using Gaussian mixture
+  models. The performance of our approach is illustrated and evaluated on real
+  and artificial FMRI data, and compared to the spatio-temporal accuracy of
+  results obtained from classical ICA and GLM analyses.%
+    }
+    \verb{doi}
+    \verb 10.1109/TMI.2003.822821
+    \endverb
+    \verb{eprint}
+    \verb 978-0-87893-286-3
+    \endverb
+    \field{isbn}{0278-0062}
+    \field{issn}{02780062}
+    \field{number}{2}
+    \field{pages}{137\bibrangedash 152}
+    \field{title}{{Probabilistic Independent Component Analysis for Functional
+  Magnetic Resonance Imaging}}
+    \field{volume}{23}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Beckmann, Smith - 2004 - Probabilistic Independent Com
+    \verb ponent Analysis for Functional Magnetic Resonance Imaging.pdf:pdf
+    \endverb
+    \field{journaltitle}{IEEE Transactions on Medical Imaging}
+    \field{eprinttype}{arXiv}
+    \field{year}{2004}
+  \endentry
+
+  \entry{Li2007}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LYO}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yi-Ou},
+         giveni={Y\bibinitperiod-O\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Adalı},
+         familyi={A\bibinitperiod},
+         given={T{\"{u}}lay},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CVD}{%
+         family={Calhoun},
+         familyi={C\bibinitperiod},
+         given={Vince\bibnamedelima D.},
+         giveni={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \keyw{entropy rate,fmri,ica,order selection,sample dependence,subsampling}
+    \strng{namehash}{LYOATCVD1}
+    \strng{fullhash}{LYOATCVD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Multivariate analysis methods such as independent component analysis (ICA)
+  have been applied to the analysis of functional magnetic resonance imaging
+  (fMRI) data to study brain function. Because of the high dimensionality and
+  high noise level of the fMRI data, order selection, i.e., estimation of the
+  number of informative components, is critical to reduce over/underfitting in
+  such methods. Dependence among fMRI data samples in the spatial and temporal
+  domain limits the usefulness of the practical formulations of
+  information-theoretic criteria (ITC) for order selection, since they are
+  based on likelihood of independent and identically distributed (i.i.d.) data
+  samples. To address this issue, we propose a subsampling scheme to obtain a
+  set of effectively i.i.d. samples from the dependent data samples and apply
+  the ITC formulas to the effectively i.i.d. sample set for order selection. We
+  apply the proposed method on the simulated data and show that it
+  significantly improves the accuracy of order selection from dependent data.
+  We also perform order selection on fMRI data from a visuomotor task and show
+  that the proposed method alleviates the over-estimation on the number of
+  brain sources due to the intrinsic smoothness and the smooth preprocessing of
+  fMRI data. We use the software package ICASSO (Himberg et al. [ 2004]:
+  Neuroimage 22:1214–1222) to analyze the independent component (IC)
+  estimates at different orders and show that, when ICA is performed at
+  overestimated orders, the stability of the IC estimates decreases and the
+  estimation of task related brain activations show degradation. Hum Brain
+  Mapp, 2007. {\textcopyright} 2007 Wiley-Liss, Inc.%
+    }
+    \verb{doi}
+    \verb 10.1002/hbm.20359
+    \endverb
+    \field{isbn}{1097-0193}
+    \field{issn}{10659471}
+    \field{number}{11}
+    \field{pages}{1251\bibrangedash 1266}
+    \field{title}{{Estimating the number of independent components for
+  functional magnetic resonance imaging data}}
+    \verb{url}
+    \verb http://doi.wiley.com/10.1002/hbm.20359
+    \endverb
+    \field{volume}{28}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Li, Adalı, Calhoun - 2007 - Estimating the number of
+    \verb independent components for functional magnetic resonance imaging data
+    \verb .pdf:pdf
+    \endverb
+    \field{journaltitle}{Human Brain Mapping}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Majeed2014}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MW}{%
+         family={Majeed},
+         familyi={M\bibinitperiod},
+         given={Waqas},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=AMJ}{%
+         family={Avison},
+         familyi={A\bibinitperiod},
+         given={Malcolm\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MWAMJ1}
+    \strng{fullhash}{MWAMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Independent component analysis (ICA) has been successfully utilized for
+  analysis of functional MRI (fMRI) data for task related as well as resting
+  state studies. Although it holds the promise of becoming an unbiased
+  data-driven analysis technique, a few choices have to be made prior to
+  performing ICA, selection of a method for determining the number of
+  independent components (nIC) being one of them. Choice of nIC has been shown
+  to influence the ICA maps, and various approaches (mostly relying on
+  information theoretic criteria) have been proposed and implemented in
+  commonly used ICA analysis packages, such as MELODIC and GIFT. However, there
+  has been no consensus on the optimal method for nIC selection, and many
+  studies utilize arbitrarily chosen values for nIC. Accurate and reliable
+  determination of true nIC is especially important in the setting where the
+  signals of interest contribute only a small fraction of the total variance,
+  i.e. very low contrast-to-noise ratio (CNR), and/or very focal response. In
+  this study, we evaluate the performance of different model order selection
+  criteria and demonstrate that the model order selected based upon bootstrap
+  stability of principal components yields more reliable and accurate estimates
+  of model order. We then demonstrate the utility of this fully data-driven
+  approach to detect weak and focal stimulus-driven responses in real data.
+  Finally, we compare the performance of different multi-run ICA approaches
+  using pseudo-real data.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pone.0094943
+    \endverb
+    \field{isbn}{1932-6203 (Electronic)$\backslash$r1932-6203 (Linking)}
+    \field{issn}{19326203}
+    \field{number}{4}
+    \field{title}{{Robust data driven model order estimation for independent
+  component analysis of fMRI data with low contrast to noise}}
+    \field{volume}{9}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{PLoS ONE}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Calhoun2001}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CV}{%
+         family={Calhoun},
+         familyi={C\bibinitperiod},
+         given={V.D.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Adali},
+         familyi={A\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Pearlson},
+         familyi={P\bibinitperiod},
+         given={G.D.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pekar},
+         familyi={P\bibinitperiod},
+         given={J.J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Algorithms,Brain Mapping,Computer-Assisted,Data
+  Interpretation,Demography,Functional Laterality,Functional Laterality:
+  physiology,Humans,Image Processing,Linear Models,Magnetic Resonance
+  Imaging,Neuropsychological Tests,Photic Stimulation,Psychomotor
+  Performance,Psychomotor Performance: physiology,Signal Processing,Space
+  Perception,Space Perception: physiology,Statistical,Time Factors,Time
+  Perception,Time Perception: physiology,Visual Cortex,Visual Cortex: anatomy
+  {\&} histology,Visual Cortex: physiology}
+    \strng{namehash}{CV+1}
+    \strng{fullhash}{CVATPGPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Independent component analysis (ICA) is a technique that attempts to
+  separate data into maximally independent groups. Achieving maximal
+  independence in space or time yields two varieties of ICA meaningful for
+  functional MRI (fMRI) applications: spatial ICA (SICA) and temporal ICA
+  (TICA). SICA has so far dominated the application of ICA to fMRI. The
+  objective of these experiments was to study ICA with two predictable
+  components present and evaluate the importance of the underlying independence
+  assumption in the application of ICA. Four novel visual activation paradigms
+  were designed, each consisting of two spatiotemporal components that were
+  either spatially dependent, temporally dependent, both spatially and
+  temporally dependent, or spatially and temporally uncorrelated, respectively.
+  Simulated data were generated and fMRI data from six subjects were acquired
+  using these paradigms. Data from each paradigm were analyzed with regression
+  analysis in order to determine if the signal was occurring as expected.
+  Spatial and temporal ICA were then applied to these data, with the general
+  result that ICA found components only where expected, e.g., S(T)ICA "failed"
+  (i.e., yielded independent components unrelated to the "self-evident"
+  components) for paradigms that were spatially (temporally) dependent, and
+  "worked" otherwise. Regression analysis proved a useful "check" for these
+  data, however strong hypotheses will not always be available, and a strength
+  of ICA is that it can characterize data without making specific modeling
+  assumptions. We report a careful examination of some of the assumptions
+  behind ICA methodologies, provide examples of when applying ICA would provide
+  difficult-to-interpret results, and offer suggestions for applying ICA to
+  fMRI data especially when more than one task-related component is present in
+  the data.%
+    }
+    \verb{doi}
+    \verb 10.1002/hbm.1024
+    \endverb
+    \field{isbn}{1065-9471 (Print)$\backslash$r1065-9471 (Linking)}
+    \field{issn}{1065-9471}
+    \field{number}{1}
+    \field{pages}{43\bibrangedash 53}
+    \field{title}{{Spatial and temporal independent component analysis of
+  functional MRI data containing a pair of task-related waveforms}}
+    \verb{url}
+    \verb http://europepmc.org/abstract/med/11284046
+    \endverb
+    \field{volume}{13}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Calhoun et al. - 2001 - Spatial and temporal independe
+    \verb nt component analysis of functional MRI data containing a pair of tas
+    \verb k-related wav.pdf:pdf
+    \endverb
+    \field{journaltitle}{Human Brain Mapping}
+    \field{year}{2001}
+  \endentry
+
+  \entry{Kim2013}{article}{}
+    \name{author}{6}{}{%
+      {{hash=KJ}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Jieun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LML}{%
+         family={Loggia},
+         familyi={L\bibinitperiod},
+         given={Marco\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ERR}{%
+         family={Edwards},
+         familyi={E\bibinitperiod},
+         given={Robert\bibnamedelima R.},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=WAD}{%
+         family={Wasan},
+         familyi={W\bibinitperiod},
+         given={Ajay\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=GRL}{%
+         family={Gollub},
+         familyi={G\bibinitperiod},
+         given={Randy\bibnamedelima L.},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=NV}{%
+         family={Napadow},
+         familyi={N\bibinitperiod},
+         given={Vitaly},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Association for the Study of Pain}%
+    }
+    \keyw{Somatosensory Sensorimotor network Salience networ}
+    \strng{namehash}{KJ+1}
+    \strng{fullhash}{KJLMLERRWADGRLNV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Recent functional brain connectivity studies have contributed to our
+  understanding of the neurocircuitry supporting pain perception. However,
+  evoked-pain connectivity studies have employed cutaneous and/or brief
+  stimuli, which induce sensations that differ appreciably from the clinical
+  pain experience. Sustained myofascial pain evoked by pressure cuff affords an
+  excellent opportunity to evaluate functional connectivity change to more
+  clinically relevant sustained deep-tissue pain. Connectivity in specific
+  networks known to be modulated by evoked pain (sensorimotor, salience, dorsal
+  attention, frontoparietal control, and default mode networks: SMN, SLN, DAN,
+  FCN, and DMN) was evaluated with functional-connectivity magnetic resonance
+  imaging, both at rest and during a sustained (6-minute) pain state in healthy
+  adults. We found that pain was stable, with no significant changes of
+  subjects' pain ratings over the stimulation period. Sustained pain reduced
+  connectivity between the SMN and the contralateral leg primary sensorimotor
+  (S1/M1) representation. Such SMN-S1/M1 connectivity decreases were also
+  accompanied by and correlated with increased SLN-S1/M1 connectivity,
+  suggesting recruitment of activated S1/M1 from SMN to SLN. Sustained pain
+  also increased DAN connectivity to pain processing regions such as
+  mid-cingulate cortex, posterior insula, and putamen. Moreover, greater
+  connectivity during pain between contralateral S1/M1 and posterior insula,
+  thalamus, putamen, and amygdala was associated with lower cuff pressures
+  needed to reach the targeted pain sensation. These results demonstrate that
+  sustained pain disrupts resting S1/M1 connectivity by shifting it to a
+  network known to process stimulus salience. Furthermore, increased
+  connectivity between S1/M1 and both sensory and affective processing areas
+  may be an important contribution to interindividual differences in pain
+  sensitivity. {\textcopyright} 2013 International Association for the Study of
+  Pain. Published by Elsevier B.V. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.pain.2013.04.016
+    \endverb
+    \verb{eprint}
+    \verb NIHMS150003
+    \endverb
+    \field{isbn}{1872-6623 (Electronic)$\backslash$r0304-3959 (Linking)}
+    \field{issn}{18726623}
+    \field{number}{8}
+    \field{pages}{1343\bibrangedash 1351}
+    \field{title}{{Sustained deep-tissue pain alters functional brain
+  connectivity}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.pain.2013.04.016
+    \endverb
+    \field{volume}{154}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Kim et al. - 2013 - Sustained deep-tissue pain alters
+    \verb functional brain connectivity.pdf:pdf
+    \endverb
+    \field{journaltitle}{Pain}
+    \field{eprinttype}{arXiv}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Erpelding2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EN}{%
+         family={Erpelding},
+         familyi={E\bibinitperiod},
+         given={Nathalie},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=DKD}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Karen\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {International Association for the Study of Pain}%
+    }
+    \keyw{Attention Cognitive interference CTA fMRI Pain Res}
+    \strng{namehash}{ENDKD1}
+    \strng{fullhash}{ENDKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We previously discovered that when faced with a challenging cognitive task
+  in the context of pain, some people prioritize task performance, while in
+  others, pain results in poorer performance. These behaviours, designated
+  respectively as A- and P-types (for attention dominates vs pain dominates),
+  may reflect pain coping strategies, resilience or vulnerabilities to develop
+  chronic pain, or predict the efficacy of treatments such as cognitive
+  behavioural therapy. Here, we used a cognitive interference task and pain
+  stimulation in 80 subjects to interrogate psychophysical, psychological,
+  brain structure and function that distinguish these behavioural strategies.
+  During concurrent pain, the A group exhibited faster task reaction times
+  (RTs) compared to nonpain trials, whereas the P group had slower RTs during
+  pain compared to nonpain trials, with the A group being 143 ms faster than
+  the P group. Brain imaging revealed structural and functional brain features
+  that characterized these behavioural strategies. Compared to the
+  performance-oriented A group, the P group had (1) more gray matter in regions
+  implicated in pain and salience (anterior insula, anterior midcingulate
+  cortex, supplementary motor area, orbitofrontal cortex, thalamus, caudate),
+  (2) greater functional connectivity in sensorimotor and salience
+  resting-state networks, (3) less white matter integrity in the internal and
+  external capsule, anterior thalamic radiation and corticospinal tract, but
+  (4) were indistinguishable based on sex, pain sensitivity, neuroticism, and
+  pain catastrophizing. These data may represent neural underpinnings of how
+  task performance vs pain is prioritized and provide a framework for
+  developing personalized pain therapy approaches that are based on
+  behaviour-structure-function organization. {\textcopyright} 2013
+  International Association for the Study of Pain. Published by Elsevier B.V.
+  All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.pain.2013.06.030
+    \endverb
+    \field{isbn}{1872-6623 (Electronic)$\backslash$r0304-3959 (Linking)}
+    \field{issn}{18726623}
+    \field{number}{10}
+    \field{pages}{2060\bibrangedash 2071}
+    \field{title}{{Neural underpinnings of behavioural strategies that
+  prioritize either cognitive task performance or pain}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.pain.2013.06.030
+    \endverb
+    \field{volume}{154}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Erpelding, Davis - 2013 - Neural underpinnings of beha
+    \verb vioural strategies that prioritize either cognitive task performance
+    \verb or pain.pdf:pdf
+    \endverb
+    \field{journaltitle}{Pain}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Macey2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MPM}{%
+         family={Macey},
+         familyi={M\bibinitperiod},
+         given={Paul\bibnamedelima M},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MKE}{%
+         family={Macey},
+         familyi={M\bibinitperiod},
+         given={Katherine\bibnamedelima E},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Rajesh},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HRM}{%
+         family={Harper},
+         familyi={H\bibinitperiod},
+         given={Ronald\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{bold signal,detrending,global signal,linear model of
+  the,volume-of-interest analysis}
+    \strng{namehash}{MPM+1}
+    \strng{fullhash}{MPMMKEKRHRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2003.12.042
+    \endverb
+    \field{pages}{360\bibrangedash 366}
+    \field{title}{{A method for removal of global effects from fMRI time
+  series}}
+    \field{volume}{22}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/1-s2.0-S1053811904000229-main.pdf
+    \verb :pdf
+    \endverb
+    \field{year}{2004}
+  \endentry
+
+  \entry{Bharath2008}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BAA}{%
+         family={Bharath},
+         familyi={B\bibinitperiod},
+         given={A.\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BAA1}
+    \strng{fullhash}{BAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Abstract This book provides an introduction to the principles of several of
+  the more widely used methods in medical imaging. Intended for engineering
+  students, it provides a final-year undergraduate- or graduate-level
+  introduction to several imaging modalities, including MRI, ultrasound, and
+  X-Ray CT. The emphasis of the text is on mathematical models for imaging and
+  image reconstruction physics. Emphasis is also given to sources of imaging
+  artefacts. Such topics are usually not addressed across the different imaging
+  modalities in one book, and this is a notable strength of the treatment given
+  here. Table of Contents: Introduction / Diagnostic X-Ray Imaging / X-Ray CT /
+  Ultrasonics / Pulse-Echo Ultrasonic Imaging / Doppler Velocimetry / An
+  Introduction to MRI%
+    }
+    \field{booktitle}{Synthesis Lectures on Biomedical Engineering}
+    \verb{doi}
+    \verb 10.2200/S00165ED1V01Y200811BME026
+    \endverb
+    \field{isbn}{9781598296112}
+    \field{issn}{1930-0328}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 186}
+    \field{title}{{Introductory Medical Imaging}}
+    \verb{url}
+    \verb http://www.morganclaypool.com/doi/abs/10.2200/S00165ED1V01Y200811BME0
+    \verb 26
+    \endverb
+    \field{volume}{3}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Bharath - 2008 - Introductory Medical Imaging.pdf:pdf
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{Edwards}{article}{}
+    \name{author}{1}{}{%
+      {{hash=EJC}{%
+         family={Edwards},
+         familyi={E\bibinitperiod},
+         given={John\bibnamedelima C},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EJC1}
+    \strng{fullhash}{EJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Principles of NMR}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Edwards - Unknown - Principles of NMR(2).pdf:pdf
+    \endverb
+  \endentry
+
+  \entry{Chavhan2009}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CGB}{%
+         family={Chavhan},
+         familyi={C\bibinitperiod},
+         given={Govind\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BPS}{%
+         family={Babyn},
+         familyi={B\bibinitperiod},
+         given={Paul\bibnamedelima S.},
+         giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=TB}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Bejoy},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SMM}{%
+         family={Shroff},
+         familyi={S\bibinitperiod},
+         given={Manohar\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HEM}{%
+         family={Haacke},
+         familyi={H\bibinitperiod},
+         given={E.\bibnamedelima Mark},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CGB+1}
+    \strng{fullhash}{CGBBPSTBSMMHEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    T2* relaxation refers to decay of transverse magnetization caused by a
+  combination of spin-spin relaxation and magnetic field inhomogeneity. T2*
+  relaxation is seen only with gradient-echo (GRE) imaging because transverse
+  relaxation caused by magnetic field inhomogeneities is eliminated by the 180
+  degrees pulse at spin-echo imaging. T2* relaxation is one of the main
+  determinants of image contrast with GRE sequences and forms the basis for
+  many magnetic resonance (MR) applications, such as susceptibility-weighted
+  (SW) imaging, perfusion MR imaging, and functional MR imaging. GRE sequences
+  can be made predominantly T2* weighted by using a low flip angle, long echo
+  time, and long repetition time. GRE sequences with T2*-based contrast are
+  used to depict hemorrhage, calcification, and iron deposition in various
+  tissues and lesions. SW imaging uses phase information in addition to
+  T2*-based contrast to exploit the magnetic susceptibility differences of the
+  blood and of iron and calcification in various tissues. Perfusion MR imaging
+  exploits the signal intensity decrease that occurs with the passage of a high
+  concentration of gadopentetate dimeglumine through the microvasculature.
+  Change in oxygen saturation during specific tasks changes the local T2*,
+  which leads to the blood oxygen level-dependent effect seen at functional MR
+  imaging. The basics of T2* relaxation, T2*-weighted sequences, and their
+  clinical applications are presented, followed by the principles, techniques,
+  and clinical uses of four T2*-based applications, including SW imaging,
+  perfusion MR imaging, functional MR imaging, and iron overload imaging%
+    }
+    \verb{doi}
+    \verb 10.1148/rg.295095034
+    \endverb
+    \field{isbn}{1527-1323 (Electronic)$\backslash$r0271-5333 (Linking)}
+    \field{issn}{0271-5333}
+    \field{number}{5}
+    \field{pages}{1433\bibrangedash 1449}
+    \field{title}{{Principles, Techniques, and Applications of T2*-based MR
+  Imaging and Its Special Applications}}
+    \verb{url}
+    \verb http://pubs.rsna.org/doi/10.1148/rg.295095034
+    \endverb
+    \field{volume}{29}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Chavhan et al. - 2009 - Principles, Techniques, and Ap
+    \verb plications of T2-based MR Imaging and Its Special Applications.pdf:pd
+    \verb f
+    \endverb
+    \field{journaltitle}{RadioGraphics}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Chee2003}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CMWL}{%
+         family={Chee},
+         familyi={C\bibinitperiod},
+         given={Michael W\bibnamedelima L},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Venkatraman},
+         familyi={V\bibinitperiod},
+         given={Vinod},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Westphal},
+         familyi={W\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SSC}{%
+         family={Siong},
+         familyi={S\bibinitperiod},
+         given={Soon\bibnamedelima Chun},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Design methods,Language,Semantics,Word frequency,fMRI}
+    \strng{namehash}{CMWL+1}
+    \strng{fullhash}{CMWLVVWCSSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Printed word frequency can modulate retrieval effort in a task requiring
+  associative semantic judgment. Event-related fMRI, while avoiding stimulus
+  order predictability, is in theory statistically less powerful than block
+  designs. We compared one event-related and two block designs that evaluated
+  the same semantic judgment task and found that similar brain regions
+  demonstrated the word frequency effect. Although the responses were lower in
+  amplitude, event-related fMRI was able to detect the word frequency effect to
+  a comparable degree compared to the block designs. The detection of a
+  frequency effect with the event-related design also suggests that
+  stimulus-order predictability may not be as serious a concern in block
+  designs as might be supposed.%
+    }
+    \verb{doi}
+    \verb 10.1002/hbm.10092
+    \endverb
+    \field{isbn}{1065-9471 (Print)$\backslash$r1065-9471 (Linking)}
+    \field{issn}{10659471}
+    \field{number}{3}
+    \field{pages}{186\bibrangedash 193}
+    \field{title}{{Comparison of block and event-related fMRI designs in
+  evaluating the word-frequency effect}}
+    \field{volume}{18}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/ComparisonofBlock{\&}eventrelated
+    \verb fmridesignsinevaluatingthewordfrequencyeffect{\_}HBM04.pdf:pdf
+    \endverb
+    \field{journaltitle}{Human Brain Mapping}
+    \field{year}{2003}
+  \endentry
+
+  \entry{Hyvarinen2001}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HA}{%
+         family={Hyv{\"{a}}rinen},
+         familyi={H\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=KJ}{%
+         family={Karhunen},
+         familyi={K\bibinitperiod},
+         given={Juha},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OE}{%
+         family={Oja},
+         familyi={O\bibinitperiod},
+         given={Erkki},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HAKJOE1}
+    \strng{fullhash}{HAKJOE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Independent Component Analysis}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/Independent-Component-Analysis.pd
+    \verb f:pdf
+    \endverb
+    \field{year}{2001}
+  \endentry
+
+  \entry{Hyvarinen2000}{article}{}
+    \name{author}{2}{}{%
+      {{hash=HA}{%
+         family={Hyv{\"{a}}rinen},
+         familyi={H\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=OE}{%
+         family={Oja},
+         familyi={O\bibinitperiod},
+         given={Erkki},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Algorithms,Artifacts,Brain,Brain:
+  physiology,Humans,Magnetoencephalography,Neural Networks (Computer),Normal
+  Distribution}
+    \strng{namehash}{HAOE1}
+    \strng{fullhash}{HAOE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A fundamental problem in neural network research, as well as in many other
+  disciplines, is finding a suitable representation of multivariate data, i.e.
+  random vectors. For reasons of computational and conceptual simplicity, the
+  representation is often sought as a linear transformation of the original
+  data. In other words, each component of the representation is a linear
+  combination of the original variables. Well-known linear transformation
+  methods include principal component analysis, factor analysis, and projection
+  pursuit. Independent component analysis (ICA) is a recently developed method
+  in which the goal is to find a linear representation of non-Gaussian data so
+  that the components are statistically independent, or as independent as
+  possible. Such a representation seems to capture the essential structure of
+  the data in many applications, including feature extraction and signal
+  separation. In this paper, we present the basic theory and applications of
+  ICA, and our recent work on the subject.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0893-6080(00)00026-5
+    \endverb
+    \verb{eprint}
+    \verb 1504.05070
+    \endverb
+    \field{isbn}{3589451327}
+    \field{issn}{0893-6080}
+    \field{number}{4-5}
+    \field{pages}{411\bibrangedash 30}
+    \field{title}{{Independent component analysis: algorithms and
+  applications.}}
+    \verb{url}
+    \verb http://www.ncbi.nlm.nih.gov/pubmed/10946390
+    \endverb
+    \field{volume}{13}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Hyv{\"{a}}rinen, Oja - 2000 - Independent component an
+    \verb alysis algorithms and applications.pdf:pdf
+    \endverb
+    \field{journaltitle}{Neural networks : the official journal of the
+  International Neural Network Society}
+    \field{eprinttype}{arXiv}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Behzadi2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BY}{%
+         family={Behzadi},
+         familyi={B\bibinitperiod},
+         given={Yashar},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Khaled},
+         familyi={K\bibinitperiod},
+         given={Restom},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liau},
+         familyi={L\bibinitperiod},
+         given={Joy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LTT}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Thomas\bibnamedelima T.},
+         giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BY+1}
+    \strng{fullhash}{BYKRLJLTT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1021/nn300902w.Release
+    \endverb
+    \field{issn}{1053-8119}
+    \field{number}{8}
+    \field{pages}{90\bibrangedash 101}
+    \field{title}{{A Component Based Noise Correction Method (CompCor) for BOLD
+  and Perfusion Based fMRI}}
+    \field{volume}{6}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Manuscript, Nanobiomaterials - 2013 - A Component Base
+    \verb d Noise Correction Method (CompCor) for BOLD and Perfusion Based fMRI
+    \verb .pdf:pdf
+    \endverb
+    \field{year}{2013}
+  \endentry
+
+  \entry{Semmlow2004}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SJL}{%
+         family={Semmlow},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJL1}
+    \strng{fullhash}{SJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{8002281160}
+    \field{title}{{Biosignal and Biomedical Image Processing}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Google Drev/Aau Sundhedsteknologi/8. seme
+    \verb ster/Advanced Signal Processing/BiosignalandMedicalImageProcessing.pd
+    \verb f:pdf
+    \endverb
+    \field{year}{2004}
+  \endentry
+
+  \entry{PCA2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{CIS 520}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{PCA}}
+    \verb{url}
+    \verb https://alliance.seas.upenn.edu/{~}cis520/wiki/index.php?n=Lectures.P
+    \verb CA
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{Poline2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PJB}{%
+         family={Poline},
+         familyi={P\bibinitperiod},
+         given={Jean\bibnamedelima Baptiste},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Brett},
+         familyi={B\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc.}%
+    }
+    \keyw{Functional MRI,General linear model}
+    \strng{namehash}{PJBBM1}
+    \strng{fullhash}{PJBBM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In this review, we first set out the general linear model (GLM) for the non
+  technical reader, as a tool able to do both linear regression and ANOVA
+  within the same flexible framework. We present a short history of its
+  development in the fMRI community, and describe some interesting examples of
+  its early use. We offer a few warnings, as the GLM relies on assumptions that
+  may not hold in all situations. We conclude with a few wishes for the future
+  of fMRI analyses, with or without the GLM. The appendix develops some aspects
+  of use of contrasts for testing for the more technical reader.
+  {\textcopyright} 2012 Elsevier Inc.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuroimage.2012.01.133
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{1095-9572 (Electronic)$\backslash$r1053-8119 (Linking)}
+    \field{issn}{10538119}
+    \field{number}{2}
+    \field{pages}{871\bibrangedash 880}
+    \field{title}{{The general linear model and fMRI: Does love last forever?}}
+    \verb{url}
+    \verb http://dx.doi.org/10.1016/j.neuroimage.2012.01.133
+    \endverb
+    \field{volume}{62}
+    \verb{file}
+    \verb :C$\backslash$:/Users/chrko/Desktop/1-s2.0-S1053811912001607-main.pdf
+    \verb :pdf
+    \endverb
+    \field{journaltitle}{NeuroImage}
+    \field{eprinttype}{arXiv}
+    \field{year}{2012}
+  \endentry
+\enddatalist
+\endinput
