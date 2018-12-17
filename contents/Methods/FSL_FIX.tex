@@ -1,12 +1,12 @@
 
 \section{FSL FIX}
 
-The following section will describe the implementation of the automated de-noising system FIX, which introduces a faster and more standardized approach to ICA-based noise cleanup \cite{Salimi-Khorshidi2014}. The FIX method is a more extensive approach, which adds another layer of analyses to the standard preprocessing. This means that before initiating FIX the data needed to undergo the exact same steps as in the standard preprocessing presented in \secref{sec:std}. Following the standard preprocessing, the functional scan underwent an ICA to separate the sources in the acquired signal and ideally splitting signal of interest and noise. Afterwards an analysis of optimal number components in which the signal should be split was performed, as the initial results from the default setting were assessed not to sufficiently separate the signal sources. The FIX method uses a classifier to separate noise components from signal components. Hence a classifier made and trained in doing this separation. In \figref{fig:meth:fix} a flowchart showing the steps for both the training data set and the test data set in the FIX pipeline is illustrated. 
+The following section will describe the implementation of FIX, which introduces a faster and more standardized approach to ICA-based noise cleanup \cite{Salimi-Khorshidi2014}. The FIX method is a more extensive approach, which adds another layer of preprocessing to the standard preprocessing. This meant that before initiating FIX the data needed to undergo the exact same steps as in the standard preprocessing presented in \secref{sec:std}. Following the standard preprocessing, the functional scan underwent an ICA to split the sources in the acquired signal, which ideally would separate signal of interest from noise. Afterwards an analysis of optimal number components in which the data should be split was performed. The FIX tool uses a classifier to separate noise components from signal components. The classifier needed to be trained before it applied on a new data set. In \figref{fig:meth:fix} a flowchart showing the steps for both the training data set and the test data set in the FIX pipeline is illustrated. 
 
 
 \begin{figure}[H]                 
 	\includegraphics[width=.6\textwidth]{figures/bMethods/FIX_flow} 
-	\caption{Flowchart illustrating the two datasets and the corresponding steps that was applied to each dataset in the FIX pipeline.}
+	\caption{Flowchart illustrating the two datasets and the corresponding steps that was applied to each dataset in the FIX pipeline. Initially, MELODIC was used to estimate independent components. These components were subsequently hand labeled, and used to train the classifier along with 186 features extracted from each component. The trained classifier could then be used to identify the the source of each component from a test data set.}
 	\label{fig:meth:fix} 
 \end{figure}
 

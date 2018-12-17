@@ -1,9 +1,9 @@
 
-The methods section serves the purpose of presenting the study design, how the test data was acquired and document the implementation of the two preprocessing methods used for noise removal. A flowchart that introduces a general overview of the different procedures can be seen in \figref{fig:meth:overview}. First, the data acquisition protocol and the subjects demographics will be presented. Subsequently the implementation of the standard preprocessing method will be introduced, followed by the FSL FIX method. Finally, the statistical framework used for testing the performance of each preprocessing method is presented. 
+The methods section serves the purpose of presenting the study design, how the test data was acquired and document the implementation of the two preprocessing methods used for noise removal. A flowchart that introduces a general overview of the different procedures can be seen in \figref{fig:meth:overview}. Initially, the data acquisition protocol and the subjects' demographics will be presented. Subsequently, the implementation of the standard preprocessing method will be introduced followed by the implementation of the FIX method. Finally, the statistical framework used for testing the performance of each preprocessing method is presented. 
 
 \begin{figure}[H]                 
 	\includegraphics[width=.37\textwidth]{figures/bMethods/Flowchart_intro}  
-	\caption{Flowchart presenting an overview of the processing pipeline. Initially the data is acquired and the brain is segmented and extracted from both a structural and functional scan. Afterwards the extracted brains are registered to each other and to standard space. Then the brain from the functional scan is run through the pipeline of each of the two preprocessing methods, and lastly the results of noise removal from each pipeline is compared.}
+	\caption{Flowchart presenting an overview of the methods applied. Initially, the data is acquired and the brain is segmented and extracted from both a structural and functional scan. Afterwards, the extracted brains are registered to each other and to standard space. Then the brain from the functional scan is run through the pipeline of each of the two preprocessing methods, and lastly the results of noise removal from each pipeline are compared.}
 	\label{fig:meth:overview} 
 \end{figure}
  
