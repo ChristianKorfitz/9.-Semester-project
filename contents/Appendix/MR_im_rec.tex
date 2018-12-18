@@ -5,7 +5,7 @@ Following the Lamour frequency \eqref{eq:lamour}, the main magnetic field causes
 The nuclei of that slice now precess at the same rate. To get an image with a spatial resolution, the voxels that make out the image needs to be discriminated between. By turning on the gradient of the x-direction the lines in the y-direction are now encoded with a particular frequency. This gradient functions as a frequency encoding gradient, and is illustrated in \figref{fig:back:gradient}. \cite{Bharath2008} \\
  \begin{figure}[H]                 
 	\includegraphics[width=.7\textwidth]{figures/aBackground/gradient}  
-	\caption{The position of the slice is specified through the direction of the frequency encoding gradient ($B(z)$) and though the central frequency of the emitted RF pulse ($f_c$). The thickness of the slice is dependent on the steepness slope of $B(z)$, and on the bandwith of the emitted RF pulse $(\delta f)$. \cite{Bharath2008}}
+	\caption{The position of the slice is specified through the direction of the frequency encoding gradient ($B(z)$) and though the central frequency of the emitted RF pulse ($f_c$). The thickness of the slice is dependent on the steepness slope of $B(z)$, and on the bandwith of the emitted RF pulse $(\delta f)$. Illustration taken from \cite{Bharath2008}}
 	\label{fig:back:gradient} 
 \end{figure} 
 Turning the y-gradient on and quickly off, will de-phase the nuclei while still remaining the same frequency as before. This gradient functions as a phase encoding gradient. When comparing two locations approximately one voxel apart in the x-direction, then based on the amount of gradient strength difference, there will be a certain amount of change in phase between the spins spread across that distance. The farther away from isocenter, where the magnetic field strength is $B_0$, the higher the change in phase will be. This notion is used to assign the correct spatial location of each voxel, when reconstructing the FID signals into an image. This phase encoding procedure is done in different gradient strengths in iterations to assign unique phases to the nuclei in the both directions. One iteration of a certain strength of the phase encoding gradient followed by a measurement is performed at a time. The only change per iteration is the phase encoding gradient strength. These iterations are then series of measurements acquired at different points in time, where each entry of the slice then represent a certain signal intensity. This time domain measurement is referred to at the raw data. \cite{Bharath2008}\\
@@ -13,6 +13,6 @@ The next step is to Fourier Transform (FT) the raw data, which will yield freque
 
 \begin{figure}[H]                 
 	\includegraphics[width=.8\textwidth]{figures/aBackground/k_space}  
-	\caption{A depiction of the acquired signal represented in k-space and the resulting reconstructed image after the inverse 2D Fourier Transform \cite{Syed2015}.}
+	\caption{A depiction of the acquired signal represented in k-space and the resulting reconstructed image after the inverse 2D Fourier Transform. Illustration taken from \cite{Syed2015}.}
 	\label{fig:back:kspace} 
 \end{figure}

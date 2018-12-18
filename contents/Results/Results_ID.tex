@@ -1,6 +1,6 @@
-\section{Results Individual Differences}
+\section{Individual Differences}
 
-This section addresses the secondary research question that involved an investigation of possible individual differences in brain activation related to sensitivity, and if the use of FSL FIX would in increase any findings. The amount positive and negative brain activation related to the pain sensitivity of each individual in the test population can be seen in \figref{STD_pos_ID} and \figref{STD_neg_ID} when preprocessing the data using standard preprocessing.  
+This section addresses the secondary research question that involved an investigation of possible individual differences in brain activation related to sensitivity, and if the use of FIX would improve the likelihood of observing any relation between sensitivity and brain activation. The amount of positive and negative brain activation related to the pain sensitivity of each individual in the test population can be seen in \figref{STD_pos_ID} and \figref{STD_neg_ID}, when preprocessing the data using standard preprocessing.  
 
 \begin{figure}[H]                 
 	\includegraphics[width=.65\textwidth]{figures/Results/STD_pos_ID}  
@@ -14,8 +14,8 @@ This section addresses the secondary research question that involved an investig
 	\label{STD_neg_ID} 
 \end{figure}
  
-It is seen that neither positive or negative activation is present in any areas of the brain. Only a very small activation is seen in the negative activation map, but as it is localized between brain hemispheres it is most likely of artifactual nature. The amount of general brain activation presented in \secref{sec:comp}, found by using standard preprocessing does not seem to bring out the activation that might be related to individual differences, if the presence of these would be the case. \\
-Using FSL FIX for preprocessing resulted in a higher signal-to-noise ratio, but even when achieving this, it had no impact on the discovery of any possible individual differences. This can be seen on \figref{FIX_pos_ID} and \figref{FIX_neg_ID}, were no activation is seen on the positive or negative map, respectively. The only difference of using FSL FIX it the negative activation found using standard preprocessing is now removed, increasing the likelihood of being noise related. 
+It can be seen that neither positive or negative activation is present in any areas of interest. Only a very small activation is seen in the negative activation map, but as it is localized between brain hemispheres it is most likely of artifactual nature. The amount of general brain activation, presented in \secref{sec:comp}, preserved by using standard preprocessing does not seem to show activation that might be related to individual differences. \\
+Using FIX for preprocessing resulted in a higher signal-to-noise ratio, but even while achieving this, it had no impact on the observation of individual differences. This can be seen in \figref{FIX_pos_ID} and \figref{FIX_neg_ID}, where no activation was seen on neither the positive or negative map. The only difference of using FIX was that the negative activation found using standard preprocessing is now removed, increasing the likelihood of it being noise related. 
 
 \begin{figure}[H]                 
 	\includegraphics[width=.65\textwidth]{figures/Results/FIX_pos_ID}  
