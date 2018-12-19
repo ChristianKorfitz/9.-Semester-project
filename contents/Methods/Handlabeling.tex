@@ -1,8 +1,8 @@
 \subsection{Hand labeling of independent components}
 Before the automatic FIX classifier could be used to identity components of noise and interest it needed to be trained with a set of hand labeled components \cite{Salimi-Khorshidi2014}. All 2500 components were manually hand labeled. \\
 The process of the hand labeling followed that the investigators labeled half of the components each, where after the labeled components were cross-checked and discussed by the investigators. The investigator assessment relied heavily on information with regards to hand labeling provided by Griffanti et al. \cite{Griffanti2017} and Salimi-Khorshidi et al. \cite{Salimi-Khorshidi2014}. As a final assessment an expert in the field of fMRI did a control and corrected labels if they not did not fit the expert's opinion. \\
-The MELODIC tool proposed a set of predefined classes to label the components as. The classes suited for artifacts were movement, susceptibility-motion, MRI, cardiac, respiratory, white matter, sagittal sinus and unclassified noise. It was possible that one component could contain more than one artefact class. If all artefact classes of the component were identifiable, more classes were added to the component. The unclassified noise class was proposed for components containing a mixture of different artifact sources, which were less clear to pinpoint. A class named unknown was intended for labeling components that contained both noise and signal. For any signal of interest the signal class was proposed, as there was no discrimination between different types of signal of interest. 
-The following illustrations \figref{fig:meth:Movement}, \figref{fig:meth:sus}, \figref{fig:meth:MRI}, \figref{fig:meth:phys}, \figref{fig:meth:walter_white}, \figref{fig:meth:sinus}, \figref{fig:meth:Unoise}, \figref{fig:meth:unknown} and \figref{fig:meth:signal} show transverse spatial examples of components related to the various artifact classes, the signal class and the unknown class.
+The MELODIC tool proposed a set of predefined classes to label the components as. The classes suited for noise were movement, susceptibility-motion, MRI, cardiac, respiratory, white matter, sagittal sinus and unclassified noise. It was possible that one component could contain more than one noise class. If all noise classes of the component were identifiable, more classes were added to the component. The unclassified noise class was proposed for components containing a mixture of different noise sources, which were less clear to pinpoint. A class named unknown was intended for labeling components that contained both noise and signal. For any signal of interest the signal class was proposed, as there was no discrimination between different types of signal of interest. 
+The following illustrations \figref{fig:meth:Movement}, \figref{fig:meth:sus}, \figref{fig:meth:MRI}, \figref{fig:meth:phys}, \figref{fig:meth:walter_white}, \figref{fig:meth:sinus}, \figref{fig:meth:Unoise}, \figref{fig:meth:unknown} and \figref{fig:meth:signal} show transverse spatial examples of components related to the various noise classes, the signal class and the unknown class.
 
 \begin{figure}[H]                 
 	\includegraphics[width=.85\textwidth]{figures/bMethods/Movement}  
@@ -13,7 +13,7 @@ The following illustrations \figref{fig:meth:Movement}, \figref{fig:meth:sus}, \
 
 \begin{figure}[H]                 
 	\includegraphics[width=.85\textwidth]{figures/bMethods/Susceptibility_motion}  
-	\caption{An example component of the susceptibility-motion artefact. Susceptibility-motion noise is mainly due to air-tissue interfaces, and thus usually spatially expressed as a mix of activation and deactivation at the sinuses of the skull.}
+	\caption{An example component of the susceptibility-motion artefact. Susceptibility-motion noise is mainly due to air-tissue interfaces, and thus usually spatially expressed as a mix of activation and deactivation at the frontal sinuses.}
 	\label{fig:meth:sus} 
 \end{figure}
 
@@ -68,6 +68,6 @@ It should be noted that a coronal and sagittal view were additionally available,
  
  \begin{figure}[H]                 
  	\includegraphics[width=0.85\textwidth]{figures/bMethods/Hand_labeling}  
- 	\caption{A flowchart describing the assessment of a component. The component is first assessed in the spatial map, secondly the time course and lastly in the power spectrum. Note that only the assessment to either signal, unknown or noise is presented in the flowchart. When a component was found to be noise a secondary assessment into which type of noise would begin, using the information presented in \cite{Salimi-Khorshidi2014,Griffanti2017} and is therefore not accounted for in this flowchart. Illustration modified from \cite{Griffanti2017}.}
+ 	\caption{A flowchart describing the assessment of a component. The component is first assessed in the spatial map, secondly the time course and lastly in the power spectrum. Note that only the assessment to either signal, unknown or noise is presented in the flowchart. When a component was found to be noise a secondary assessment into which type of noise would begin, using the information presented in \cite{Salimi-Khorshidi2014,Griffanti2017} and is therefore not accounted for in this flowchart. Illustration adapted from \cite{Griffanti2017}.}
  	\label{fig:hand_label} 
  \end{figure}

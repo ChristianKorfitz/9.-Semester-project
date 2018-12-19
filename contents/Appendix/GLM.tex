@@ -17,7 +17,7 @@ Expanding this formulation into a complete scan, including multiple regressors, 
 
 
 
-The predictor variables are found by modeling what is known or predicted as output. The predictors of interest would come from hemodynamic response curve convoluted with stimuli design as presented in \secref{sec:Stim}. GLM models will often introduce nuisance predictors as well used to model variables such low frequency drift and motion to make a more robust model. These are non interest regressors, as they do not resemble the wanted signal, being the stimuli induced. The amplitude parameter is the unknown weight, scaling the magnitude of resemblance between each predictor value and the output. They describe the strength of the relationship between that regressor and the voxel's BOLD signal course of activation. The error term contains the value for each observation, which can not be explained by the weighted sum of the amplitude parameter. \cite{Moayedi2018,Monti2011} 
+The predictor variables are found by modeling what is known or predicted as output. The predictors of interest would come from hemodynamic response curve convoluted with stimuli design as presented in \secref{sec:Stim}. GLM models will often introduce nuisance predictors as well used to model variables such low frequency drift and motion to make a more robust model. These are no interest regressors, as they do not resemble the wanted signal, being the stimuli induced. The amplitude parameter is the unknown weight, scaling the magnitude of resemblance between each predictor value and the output. They describe the strength of the relationship between that regressor and the voxel's BOLD signal course of activation. The error term contains the value for each observation, which can not be explained by the weighted sum of the amplitude parameter. \cite{Moayedi2018,Monti2011} 
 
 The goal is to estimate the value of the scaling parameter $\beta$ for all regressors and afterwards determine if any regressor significantly account for the variance found in the BOLD signal. A regressor associated with the measured BOLD signal should hypothetically show a greater value for the voxels in the brain area corresponding to a given task. E.g. finger tapping would show greater $\beta$ values in the motor cortex. A method for estimating $\beta$ values for the regressors is the ordinary least squares (OLS). The OLS method estimates $\beta$ by minimizing the sum of squared residuals \cite{Monti2011}: 
 
@@ -35,7 +35,7 @@ Y is the observed signal, X is the predicted signal which is scaled by $\beta$. 
 var(\hat{\beta})=\sigma^2(X^TX)^{-1}
 \end{equation}
 
-The application of this method rests on the following assumptions being fulfilled: Error terms are independently and Gaussian distributed with zero mean, the regressors in the matrix are independent of error, non stochastic and known and no regressor is a linear transformation of another regressor. \cite{Monti2011}    
+The application of this method rests on the following assumptions being fulfilled: Error terms are independently and Gaussian distributed with zero mean, the regressors in the matrix are independent of error, non-stochastic and known and no regressor is a linear transformation of another regressor. \cite{Monti2011}    
 
 
 
